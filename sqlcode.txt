@@ -1,0 +1,65 @@
+LOAD DATA INFILE 'ChainList.txt'
+  IGNORE 1 LINES
+  FIELDS TERMINATED BY '|'
+  INTO TABLE HotelChains
+  SET chaincodeid = @var1
+  SET chainname = @var2
+
+
+
+LOAD DATA INFILE '/Users/victoriapayne/src/EAN_files/ChainList.txt'
+INTO TABLE HotelChains 
+FIELDS TERMINATED BY '|'
+(chaincodeid, chainname); 
+
+'/Users/victoriapayne/src/EAN_files/ChainList.txt'
+
+
+COMMAND THAT WORKED:
+
+LOAD DATA INFILE '/Users/victoriapayne/src/EAN_files/ChainList.txt' 
+INTO TABLE HotelChains  
+FIELDS TERMINATED BY '|' 
+(chaincodeid, chainname);
+
+EANHotelID|SequenceNumber|Name|Address1|Address2|City|StateProvince|PostalCode|Country|Latitude|Longitude|AirportCode|PropertyCategory|PropertyCurrency|StarRating|Confidence|SupplierType|Location|ChainCodeID|RegionID|HighRate|LowRate|CheckInTime|CheckOutTime
+
+
+THESE TWO WORKED (Combo create table/load data file)
+
+CREATE TABLE EANHotelList (
+HotelID MEDIUMINT NOT NULL AUTO_INCREMENT KEY, 
+EANHotelID INT, 
+SequenceNumber INT, 
+Name VARCHAR(80), 
+Address1 VARCHAR (60), 
+Address2 VARCHAR (60), 
+City VARCHAR (50), 
+StateProvince VARCHAR (15), 
+PostalCode VARCHAR (15), 
+Country VARCHAR (30), 
+Latitude FLOAT, 
+Longitude FLOAT, 
+AirportCode VARCHAR (15), 
+PropertyCategory FLOAT, 
+PropertyCurrency VARCHAR (15), 
+StarRating VARCHAR (5), 
+Confidence VARCHAR (5), 
+SupplierType VARCHAR (15), 
+Location VARCHAR (125), 
+ChainCodeID INT, 
+RegionID INT, 
+HighRate FLOAT, 
+LowRate FLOAT, 
+CheckInTime VARCHAR (10), 
+CheckOutTime VARCHAR (10), 
+LoyaltyProgram VARCHAR (20), 
+LoyaltyHotelCat INT, 
+StandFreeNightPoints INT);
+
+LOAD DATA INFILE '/Users/victoriapayne/src/EAN_files/ActivePropertyList.txt' 
+INTO TABLE EANHotelList  
+FIELDS TERMINATED BY '|' 
+(EANHotelID, SequenceNumber, Name, Address1, Address2, City, StateProvince, PostalCode, Country, Latitude, Longitude, AirportCode, PropertyCategory, PropertyCurrency, StarRating, @Confidence, SupplierType, Location, @ChainCodeID, RegionID, HighRate, LowRate, CheckInTime, CheckOutTime)
+SET ChainCodeID = IF(@ChainCodeID='',0,@ChainCodeID);
+

@@ -1,0 +1,776 @@
+0|Independent
+5|Adam's Mark
+14|Shilo Inn
+15|Renaissance
+17|Best Western
+18|Clarion
+21|Comfort Inn
+28|Courtyard
+29|Doral
+31|Days Inn
+33|Doubletree
+36|Econo Lodge
+38|Embassy Suites
+44|Fairfield Inn
+45|Regent Hotels
+54|Homewood Suites
+55|Hilton Hotels
+56|Holiday Inn
+57|Howard Johnson
+65|Hyatt Hotels
+66|Inter-Continental
+75|Kempinski Hotels & Resorts
+80|La Quinta Inn & Suites
+81|Movenpick Hotels & Resorts
+85|Loews
+86|Marriott Hotels & Resorts
+87|Le Meridien
+91|Mandarin Oriental Hotel Group
+94|Nikko
+98|Okura Hotels & Resorts
+100|Omni
+102|Outrigger
+105|Pan Pacific Hotels & Resorts
+106|Preferred
+111|Quality
+113|Ramada
+114|Residence Inn
+115|Radisson
+117|Red Roof Inn
+119|Rodeway Inn
+120|Red Lion
+126|Ritz-Carlton
+129|Shangri-La Hotels and Resorts
+130|Sheraton Hotel
+131|Signature Inn
+132|Swissotel
+141|Sleep Inn
+143|Travelodge
+152|Westin
+157|Wyndham Hotels
+159|Delta Hotels
+201|ResortQuest
+202|Camino Real
+206|Country Inn & Suites
+209|Fairmont
+210|Fiesta Americana Hotels & Reso
+213|Golden Tulip
+217|Harvey Hotel
+219|Hawthorn Suites
+224|Jumer Hotels
+225|Kimpton Hotels
+228|Maritim Hotels
+233|Oberoi Hotels & Resorts
+235|Park Inn
+236|Park Plaza
+238|Regal Hotels International
+239|Regency Hotels
+241|Romantik Hotel
+244|Sonesta Hotel
+251|Susse Chalets
+252|Treff Hotels
+255|Westmark
+256|Crowne Plaza
+258|AmeriSuites
+263|Millennium Hotels
+265|RIHGA Royal Hotels
+270|Wingate Inn
+271|Wellesley Inn
+272|Sofitel
+288|Holiday Inn Express Hotel
+298|Thistle Hotels
+300|Novotel
+309|Four Points
+315|Ana Hotels International
+320|Luxury Collection
+321|Sheraton Inn
+323|Marco Polo Hotel Group
+341|Drury Inn
+343|Knights Inn
+344|MainStay Suites
+345|New Otani Hotels, The
+347|Sol Melia
+351|Americinn
+353|Caesar Park Hotels & Resorts
+358|Hampton Inn
+359|WestCoast
+360|Sutton Place Hotels
+372|Scandic Hotels
+421|Baymont Inns & Suites
+433|Candlewood Hotel
+473|Crossland Suites
+492|Hotel Des Gouverneurs
+497|Guesthouse Inns
+498|Caesars Entertainment
+539|Jurys Hotels
+560|Microtel Inn
+588|Prince Hotels
+611|Gresham Hotels
+645|Swallow Hotels
+651|Tokyu Hotels
+653|TownePlace Suites
+659|Vagabond Inn
+664|Villager Lodge
+681|Homestead
+702|SpringHill Suites
+706|W Hotel
+715|Comfort Suites
+724|ClubHouse
+731|Staybridge Suites
+733|Super 8
+734|Taj Hotels, Resorts & Palaces
+739|Raffles Intl Hotels and Resort
+740|Stamford Hotels & Resorts
+2001|Executive Hotels & Resorts
+2002|Hard Rock Hotels
+2004|Mandalay Bay Resort & Casino
+2006|Studio 6
+2007|Universal Orlando Resort
+2008|Arcotel
+2009|America's Best Inns
+2010|Country Hearth Inn
+2012|Devere Hotels
+2014|Flair 
+2015|Furama
+2016|Husa 
+2017|Inns of America
+2018|Jolly Hotels
+2019|Lees Inn Of America
+2020|Masters Inn
+2021|Motel 6
+2022|NH Hotels
+2023|Norlandia
+2024|Oakwood
+2025|The Peninsula Group
+2026|Phoenix Inn
+2027|Red Carpet Inn
+2029|Rica Hotels
+2030|Rydges
+2031|Sandals Resorts
+2033|Shoney's Inn
+2034|Silver Cloud
+2035|Sokos
+2036|Steigenberger
+2037|TimHotels
+2038|Tryp Hotels
+2039|Una Hotels
+2043|Woodfin Suites
+2045|St Regis
+2046|Coast Hotels
+2049|Barcelo
+2050|marriottvacationclub
+2051|Kingsgate
+2059|Hilton Garden Inn
+2068|Oceans Resorts
+2071|Magnolia Hotels
+2073|Accor Hotels
+2074|Extended Stay America
+2084|Joie De Vivre 
+2088|Best Value Inns
+2089|KSL Resorts
+2090|Destination Hotels
+2095|Noble House
+2102|MGM
+2103|Walt Disney World Resort
+2104|Disneyland Resort Paris
+2105|Disneyland Resort
+2106|Tokyo Disney Resort
+2107|Hong Kong Disneyland
+2108|Summerfield Suites
+2117|Holiday Inn Select
+2118|Drury Inn & Suites
+2119|Drury Lodge
+2120|Drury Plaza Hotel
+2121|Drury Suites
+2123|Extended Stay Deluxe
+2124|Pear Tree Inn
+2125|Budget Host
+2126|Chase Suites
+2128|Sunspree Resorts
+2130|Four Seasons
+2131|Gaylord Entertainment
+2132|Prime Hotel
+2133|Hotel Indigo
+2134|Scottish Inn
+2136|Bed and Breakfast
+2137|Mercure
+2139|Suite Novotel
+2140|All Seasons
+2141|Ibis
+2142|Etap
+2146|Conrad
+2149|Studio Plus
+2150|Walt Disney World Resorts Othe
+2160|Motel One
+2163|PMI Universal Studios Anaheim-
+2167|Sandman Hotels
+2168|Club Quarters
+2169|Los Cabos 0906
+2171|Test Brand Carie
+2173|Marriott Executive Apartments
+2178|Morgans Hotel Group
+2179|Bulgari Hotels & Resorts
+2180|Campanile
+2181|Concorde
+2182|Derag Livinghotels
+2183|Kyriad
+2184|Lucien Barriere
+2186|Premiere Classe
+2187|Radisson Edwardian
+2188|Top Hotels
+2189|Ottley's plantation inn
+2190|Luxury Resorts
+2191|Duta Resorts
+2192|Hotel Monterey Group
+2193|Coralia Club
+2194|Waldorf Astoria
+2195|Orbis
+2196|Hankyu Dai Ichi Hotel Group
+2197|Jin Jiang Hotels
+2199|Hilton International
+2200|Starwood other branded
+2201|Rosen Hotels
+2202|Good Nite Inns
+2203|Great Wolf Lodge
+2205|Ayres Collection
+2206|Saville Hotels and Resorts
+2207|Amari Hotel and Resorts
+2209|Hyatt Place
+2210|Lebua at State Tower
+2212|Britannia Hotels
+2214|Avalon Resorts
+2215|Palace Resorts
+2216|Catalonia
+2217|Eurostars Hotels
+2218|H10 Hoteles
+2219|Silken
+2220|Hesperia
+2221|AM Resorts
+2223|Emporio Hotels & Resorts
+2224|City Hotels
+2225|Derby Hotels
+2226|HCC
+2227|Iberostar
+2228|Non-Indian hotels
+2229|Jarvis
+2230|Ohana Hotels
+2231|AC by Marriott
+2232|Citymar
+2233|Confortel
+2234|Elba
+2235|Expo Canarias
+2236|Globalia
+2237|Hace
+2238|High Tech
+2239|Hotasa
+2240|Hoteles Center
+2241|IFA
+2242|Jale
+2243|Monte
+2244|Occidental
+2245|Partner
+2247|Rafael
+2248|Room Mate Hotels
+2249|Santos
+2250|Summa
+2251|Vime
+2252|Vincci
+2253|Zenit
+2254|Playa Senator
+2255|Hospes
+2256|Park Royal Hotels & Resorts
+2257|Ritz-Carlton other branded
+2259|Lexington
+2261|Tulip Inn
+2262|Pullman Hotels and Resorts
+2263|Andaz
+2264|Choice Merchant
+2265|EAP - Villa Group Resorts
+2266|Suburban Extended Stay
+2267|Appart'city
+2268|Citea
+2269|Appart'valley
+2270|Citadines
+2271|Ahotels
+2272|Bonsai Hotels
+2273|Hotansa
+2274|Karibea Hotels
+2275|New Hotels
+2276|Oceania Hotels
+2277|Oceanis Hotels
+2278|JJW Hotels
+2279|Aramark Parks & Destinations
+2280|Coastal Hotels
+2281|Gemstone Resorts
+2282|Intrawest Corporation
+2283|Viceroy Hotel Group
+2284|Larkspur
+2285|LodgeWorks
+2286|Pacific Monarch Resorts
+2287|Pacifica Host Hotels
+2288|Pacifica Hotels
+2289|Premier Resorts
+2290|Richfield Hotels
+2291|Sage Hospitality
+2293|Evolution Hospitality
+2294|Vail Resorts
+2295|Warwick Managed
+2296|Warwick Owned
+2297|Aimbridge Hospitality
+2298|Benchmark
+2299|Crestline
+2300|Davidson
+2301|Hostmark Hospitality Group
+2302|Kessler Collection
+2303|Marcus Hotels & Resorts
+2304|Park Management Group
+2305|Remington
+2306|Rosewood Hotels
+2307|Sunstream Hotels
+2308|aloft
+2309|element
+2327|Eviivo Small Hotels
+2329|Grange Hotels Group
+2341|Thon Hotels
+2346|Paradisus
+2347|Dorint Hotels & Resorts
+2348|Ringhotels
+2349|Cela
+2350|CGH
+2352|Goelia
+2353|Grand bleu
+2354|home business
+2355|Hotels du Soleil
+2356|Lagrange
+2357|LVR
+2358|M vacances
+2359|Maison de biarritz
+2360|Nemea
+2361|Odalys
+2362|P&V
+2363|Pearl
+2364|Residhome
+2365|Sara
+2366|Topotel
+2367|VVF
+2368|Hyattvacations Supechain
+2370|Stella Hospitality Group
+2371|Ayre Hoteles
+2372|Aqua Hotels
+2373|Castle
+2374|Classic Resorts
+2375|Halekulani Corporation
+2376|Hawaiian Hotels
+2377|Marc Resorts
+2378|Maui Condo and Home
+2379|Oceanfront Realty
+2380|Principle
+2381|Seaside Hotels
+2382|Shell Management
+2383|Diamond Resorts
+2384|Travelodge UK
+2385|Marival Resort & Suites All-In
+2388|Ascend Collection
+2389|Rezidor
+2393|Jumeirah
+2394|Boscolo Hotels
+2410|Corus Hotels
+2412|Residhotel
+2414|Execustay
+2415|Recommended
+2417|Adagio by Accor
+2418|Aston Resorts
+2420|The Doyle Collection
+2421|Cambria
+2422|Crescent Hotels 
+2423|Divi Resorts 
+2424|Dolce Hotels and Resorts  
+2425|Driftwood Hospitality 
+2426|Festiva Resort 
+2427|Capella Hotel Group
+2428|Westgate Resorts 
+2430|Kyriad Prestige
+2431|Radisson Blu
+2432|Sol
+2433|Melia
+2434|Gran Melia
+2435|M Gallery
+2437|Mitchell Corp
+2445|Holiday Inn Club Vacations
+2455|Me by Melia
+2457|A&O Hostels 
+2458|Royal Orchid
+2459|Lemon Tree
+2460|Ginger Hotels
+2461|Sarovar Hotels
+2462|The Park
+2465|Centerhotels
+2466|Ramee Guestline
+2468|Reykjavik Hotels
+2469|Oxford Hotels & Inns
+2470|Las Vegas Sands
+2471|Madame Vacances 
+2473|Sun N Sand
+2474|Hotusa
+2475|Q - Hotels
+2476|Leonardo Hotels
+2478|Villas Caribe
+2480|Swiss Quality Hotels
+2482|The Residence
+2483|Séjours et Affaires
+2484|Mandakini Hotels
+2485|Parkland Hotels
+2487|Sunstar Hotels
+2489|Bensaude Hotels
+2490|Pestana Group
+2491|Dom Pedro Hotels
+2492|Tivoli Hotels
+2493|Vila Gale Hotels
+2494|Luna Hoteis
+2495|HotelPartner
+2498|Innside
+2499|Belambra
+2500|Lindner Hotels
+2501|Cap Vacances
+2502|Classic British Hotels
+2509|Banyan Tree
+2510|Rusticae 
+2511|Kukreja Group of Hotels
+2512|Fiesta Hotel Group
+2513|Hilton Grand Vacations
+2521|Keys Hotels
+2522|Kamath Hotels 
+2523|Pride Hotels
+2524|Citrus Hotels
+2526|SuperClubs
+2527|Abad Hotels
+2529|Guoman Hotels
+2530|Park & Suites Group
+2532|Missoni Hotels
+2533|Autograph Collection Hotels & 
+2534|Edition
+2536|Almond Resorts
+2537|Elite Island Resorts
+2538|Coral Hotels & Resorts 
+2548|K & K Hotels
+2550|Somerset
+2551|Ascott
+2552|CRH - Condominium Rentals Hawa
+2553|Thrifty Inn
+2557|Protea
+2558|Amrath Hotels
+2559|Comitas Hoteles
+2560|Consolidated Resorts Managemen
+2565|Oxford Suites
+2568|Couples Resorts
+2569|Fosshotels
+2570|Kea Hotels
+2577|Bahia Principe
+2578|RIU Hotels
+2579|Welcom Heritage
+2580|Kerzner Bahamas
+2581|AmeriTel Inns
+2584|Insotel
+2585|Langham Hotels
+2586|Vivanta by Taj
+2587|The LaLit
+2588|Fortune Hotels
+2589|Trident Hotels
+2595|The Gateway Hotels
+2597|Menzies Hotels
+2599|JW Marriott
+2605|Elegant Hotels
+2608|Home2 Suites by Hilton
+2623|Sarova Hotels
+2624|Paradores
+2625|TRH Hoteles
+2628|APA Hotels
+2629|Daiwa Roynet Hotels
+2636|First Hotels
+2637|Macdonald Hotels
+2646|Affinia
+2648|Red Fox Hotels
+2649|CS Hotels
+2650|Magnuson Hotels
+2652|Adina
+2653|Breakfree
+2654|Citigate
+2655|Mantra
+2656|Medina
+2657|Peppers
+2658|Quay Grand
+2659|Quay West©
+2660|Sea Temple
+2661|Sebel
+2662|Travelodge Australia
+2663|Vibe
+2666|Oaks
+2667|Meriton Australia
+2668|Mirvac
+2670|Motel 168
+2673|Village Hotels
+2674|Rocco Forte
+2675|Tune Hotels
+2676|Abba Hotels
+2679|Larkspur Landing
+2680|SANA Hotels
+2681|Rotana 
+2683|Antipodes
+2684|Bluegreen Resorts
+2685|Walt Disney Hawaii
+2686|W Q4 2011
+2687|Adagio Access
+2688|Six Senses Resorts & Spas
+2689|Anantara
+2690|Soneva
+2691|Fraser
+2692|Balladins
+2693|Inter Hotel
+2694|Budgetel
+2695|3 Palms
+2696|Les Hotels de Paris
+2697|Relais de Paris 
+2698|Wynn Resorts
+2699|Marque
+2700|Rendezvous
+2701|Actahotels
+2702|Real Hotels Portugal
+2703|Macia Hoteles
+2704|Ibis Styles
+2705|Fuerte Hotels
+2706|Hoteles M.A.
+2707|Brit Hotels
+2708|Disney Hong Kong
+2709|Phoenicia Hotels & Resorts
+2710|Sterling Resorts
+2711|Relais & Chateaux
+2712|Bartell Hotels
+2713|Formule 1
+2714|Pousadas de Portugal
+2717|Station Casinos
+2718|Boyd Gaming
+2719|Inturjoven
+2720|HYATT house
+2721|Magic Costa Blanca
+2722|Servigroup
+2723|Hoteles RH
+2724|Aspen Hotels, Buenes Aires
+2725|Othon Palace
+2726|GrandStay
+2727|Jetwing Hotels
+2728|Don Juan Hotels
+2730|KTDC Hotels & Resort
+2731|Royal Hotels
+2732|Grupo Brisas
+2733|Bliston Hotels
+2734|Sea Hotels
+2735|Cerise
+2736|The Smith Pub Group
+2737|Guitart Hotels 
+2738|Angsana
+2739|Chateaux & Hotels Collection
+2740|Hoteles Estelar 
+2741|Esprit de France
+2742|Cialcotel
+2743|Leopold Hotels
+2744|Meininger
+2745|Danat Hotels & Resorts
+2746|Dema Hotels
+2747|City Garden Hotel Group
+2748|Nobile Hoteis
+2750|Go Inn
+2751|Legacy Hotels and Resorts, Sou
+2752|Allia Hotels
+2753|Celuisma Hoteles
+2755|Hoteles Globales
+2756|Roc Hotels
+2757|Sercotel Hotels
+2758|Global Hotels & Resorts
+2759|Mondo Hotels
+2760|Elite Hotels of Sweden
+2762|Universal Resorts
+2763|LA-Profil Hotels
+2764|LA-First Hotels AS
+2765|Second Home
+2766|Solaris Hotels 
+2767|Summit Hotels & Resorts
+2768|Sky Backpackers
+2769|Al Hotels
+2770|Waterfront Hotels & Casinos
+2771|Dedeman Hotels & Resorts Inter
+2772|Value Hotels
+2774|Pyramid Hotels
+2775|Estanplaza
+2776|Libertador Hotels, Resorts & S
+2777|Zanhotel
+2778|Arp Hansen
+2779|Decameron Hotels
+2780|Paloma Hotels
+2781|Prestige Hotels
+2782|Dorchester Collection
+2783|Elite Hotels
+2784|Idea Hotels
+2785|Rixos Hotels
+2786|Monrif Hotels
+2787|Empire Hotel Group
+2788|Promenade Apart-Hotéis
+2789|Metro Hospitality Group
+2790|Santika Group
+2791|Hampshire Hotels
+2792|Corinthia Hotels
+2793|Citotel
+2794|GHL Hotels
+2795|Starhotels
+2796|B&B Hotels
+2797|Ballantrae Hotels
+2798|Maldron Hotel Group 
+2799|Alliance Alberghi
+2800|Acqua Marcia Group
+2801|Hoteles Dann
+2802|Evenia Hotels
+2803|Kosmopolito Hotels Internation
+2804|Cairn Hotel Group
+2805|Harbour Plaza Hotels & Resorts
+2806|RA-Veranda Resorts
+2807|Sino Group of Hotels
+2808|LUX Island Resorts
+2809|LK Hotel Group
+2810|Sunshine Hotels & Resorts
+2811|Axel Hotels
+2812|Rhombus International Hotels G
+2813|Porto Bay Hotels & Resorts
+2814|Rex Resorts
+2815|Sunway Hotel & Apartments
+2816|SH Hotels
+2817|Gargallo Hotels
+2818|Best Hotels
+2819|Charme & Relax
+2820|PortAventura
+2821|Omena Hotels 
+2822|Grand City Hotels
+2823|Van der Valk Hotels
+2824|Bastion Hotel Groep
+2825|Onagrup Hotels
+2826|HAAG Hotels
+2827|Ibis Budget
+2828|Motif Leisure 
+2829|Al Diar Hotels
+2830|Beachcomber Hotels
+2831|Starway Hotels
+2832|Green Tree Inns
+2833|Jinjiang Inn
+2834|Qualys
+2835|P'tit Déj-Hôtel
+2837|SPM Resorts
+2838|Grand Mercure
+2839|Night Hotels
+2840|Mision
+2841|El Cid
+2842|Legacy Hotels
+2843|Puma Hotels
+2844|eLong
+2845|Mona Lisa
+2846|Bewleys Hotel Group
+2847|Blue Diamond Caribbean
+2848|SORAT Hotels Deutschland
+2849|Dormero
+2850|Novum
+2851|Vinuales
+2852|Nordic Hotels
+2853|Pentahotels
+2854|Carlton Hotel Collection
+2855|Sandton Hotels
+2856|Sorell Hotels
+2857|Azimut Hotels
+2858|Village Center
+2859|HDM - name change exception
+2860|Attitude
+2861|Dan Hotels Israel
+2862|Aramark Conference Centers
+2863|Warwick Affiliate
+2864|Fattal
+2865|V3 ANZ Hotels 
+2866|Welcome Hotels
+2867|Travel Charme Hotels
+2868|Arcona Hotels
+2869|Seetel Hotels
+2870|TUI Hotels and Resorts
+2871|Upstalsboom Hotels 
+2872|Future Inns Hotels
+2873|Clifton Hotels
+2874|Crossland Economy Studios
+2875|MAX Serviced Apartments
+2876|Excellence Resorts
+2877|Beloved Hotels
+2878|Trump International
+2879|HTop Hotels
+2880|VIP Hotels
+2881|Vienna International Hotels 
+2882|One&Only Resorts
+2883|DJH Germany
+2884|Nippon Travel Agency
+2885|Magnuson Managed
+2886|Hallmark Hotels
+2887|Kross Hotels
+2889|Patton Hospitality Management
+2890|BBB Hotels
+2891|B&B Ireland
+2892|BBB2 Hotels
+2893|TRYP by Wyndham
+2894|Akkeron Hotels
+2895|Eviivo RMS Hotels
+2896|Principal Hayley
+2897|Greene King
+2898|Ace Hotel
+2899|Escapade Parisienne
+2900|Honotel
+2901|Handpicked Hotels
+2902|Emeraude Paris
+2903|Art Hotels Paris
+2904|Maurice Hurand Group
+2905|Elegancia
+2906|Baverez
+2907|Corruble
+2908|Cantet
+2909|Regetel
+2910|Value Place
+2911|Leisure Link
+2912|Young's Hotels
+2913|Maybourne
+2914|Red Carnation
+2915|Premier Inn
+2916|London Premier
+2917|CitizenM Hotels
+2918|Firmdale
+2919|Apex Hotels
+2920|HDM - Duplicate check
+2921|Grand Chifley
+2922|Chifley
+2923|Country Comfort
+2924|Sundowner Motor Inns
+2925|Silverneedle Collection
+2926|Australis Resorts
+2927|Hot-el-Apartments
+2928|Siverneedle Hospitality
+2929|Logis International Services
+2930|Astotel
+2931|EVEN Hotels
+2933|Relais du Silence
+2934|Sun International
+2935|ALH Group
+2936|Bespoke
+2937|Crerar
+2938|Strathmore Hotels
+2939|Club Mahindra
+2940|Icelandair Hotels
+2941|Hotel Edda
+2942|African Hotels & Adventures
+2943|Peermont
+2944|Victor's
+2945|PREM Group UK
+2946|PREM Group Ireland
+2948|Sterling Holidays
+2949|Malmaison
+2950|Sleeperz Hotels
+2951|Hotel Du Vin & Bistro
+2953|Woo Travelling
