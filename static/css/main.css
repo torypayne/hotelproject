@@ -2,16 +2,16 @@ body {
     background-color: #eee;
 }
 
-form.signin {
-    width: 300px;
+form.search {
+    width: 450px;
     margin: 50px auto;
 }
 
-form.signin input.form-control {
+form.search input.form-control {
     margin-bottom: 5px;
 }
 
-form.signin input.btn {
+form.search input.btn {
     margin-top: 15px;
 }
 

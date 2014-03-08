@@ -1,0 +1,56 @@
+
+
+For reference, here's our bare minimum hotel request:
+<HotelListRequest>
+    <city>Paris</city>
+    <arrivalDate>4/7/2014</arrivalDate>
+    <departureDate>4/9/2014</departureDate>
+    <numberOfResults>50</numberOfResults>
+</HotelListRequest>
+
+
+And here's the url broken down
+https://api.eancdn.com/ean-services/rs/hotel/v3/list?
+cid=55505&
+minorRev=99&
+apiKey=cbrzfta369qwyrm9t5b8y8kf&
+locale=en_US&
+currencyCode=USD&
+xml=
+%3C
+HotelListRequest
+%3E%0A%20%20%20%20%3C
+city
+%3E
+Paris
+%3C%2F
+city
+%3E%0A%20%20%20%20%3C
+arrivalDate
+%3E
+4
+%2F
+7
+%2F
+2014
+%3C%2F
+arrivalDate
+%3E%0A%20%20%20%20%3C
+departureDate
+%3E
+4
+%2F
+9
+%2F
+2014
+%3C%2F
+departureDate
+%3E%0A%20%20%20%20%3C
+numberOfResults
+%3E
+50
+%3C%2F
+numberOfResults
+%3E%0A%3C%2F
+HotelListRequest
+%3E

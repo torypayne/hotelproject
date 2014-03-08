@@ -1,14 +1,30 @@
 <html>
 	<head>
-		<title>Hotel Point Search</title>
+		{% extends 'master.html' %}
 	</head>
 	<body>
+
+
+
 	{% block body %}
-		<h1>This is tots going to be a hotel point search</h1>
+		<form class="search" method="POST">
+                <h2 class="search-heading">Where do you want to go?</h2>
+                <input type="text" class="form-control" placeholder="Search a City" name="search">
+<!--                 Going to need to add date stuff -->
 
-		<p>Like for realsies. Hello world!</p>
 
+				 <input type="text" class="form-control" id="datepicker" name="checkin" placeholder="Check in"/> 
+				<input type="text" class="form-control" id="datepicker" name="checkout" placeholder="Check out"/>
+ 				<br> 
+ 				<input type="submit" class="btn-lg btn-primary btn-block" value="Submit" >
 
 	{% endblock %}
+	<!-- Javascipt files, really need to understand this better -->
+	<script src="/static/js/jquery-2.1.0.js"></script>
+	 <script>
+   $(function() {
+     $("#datepicker").datepicker();
+   });
+ </script>
 	</body>
 </html>
