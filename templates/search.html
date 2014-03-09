@@ -5,8 +5,11 @@
 	<body>
 	{% block body %}
 	<div>
-	<h3>You just searched for {{city}}
-
+	<h3>Hotels in {{city}}<br>
+		<small> {{checkin}} - {{checkout}}</small></h3>
+	</div>
+	<div>
+	{{hotel_list}}
 	</div>
 	{% endblock %}
 	<!-- Javascipt files, really need to understand this better -->
