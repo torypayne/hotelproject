@@ -14,7 +14,9 @@ def search_data():
 	city = request.form.get("search")
 	checkin = request.form.get("checkin")
 	checkout = request.form.get("checkout")
-	return redirect(url_for("search_results", city=city, checkin=checkin, checkout=checkout))
+	return redirect(url_for("search_results", city=city, 
+											checkin=checkin, 
+											checkout=checkout))
 
 @app.route("/search")
 def search_results():
@@ -30,8 +32,11 @@ def search_results():
 	r = requests.get("http://api.ean.com/ean-services/rs/hotel/v3/list?", params=payload)
 	r = json.loads(r.text)
 	pprint(r)
-	print type(r)
-	return render_template("search.html", city=city, checkin=checkin, checkout=checkout, hotel_list=r)
+	hotel_list = r["HotelListResponse"]["HotelList"]["HotelSummary"]
+	return render_template("search.html", city=city, 
+										checkin=checkin, 
+										checkout=checkout, 
+										hotel_list=hotel_list)
 
 if __name__ == "__main__":
 	app.run(debug = True)

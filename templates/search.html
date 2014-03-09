@@ -9,13 +9,16 @@
 		<small> {{checkin}} - {{checkout}}</small></h3>
 	</div>
 	<div>
-	{{hotel_list}}
+	{% for hotel in hotel_list %}
+	Hotel: {{hotel["name"]}}
+	<br>
+	TripAdvisor: {{hotel["tripAdvisorRating"]}}<br>
+	Average Nightly Rate: ${{hotel["RoomRateDetailsList"]["RoomRateDetails"]["RateInfos"]["RateInfo"]["ChargeableRateInfo"]["@averageRate"]}}
 	<br>
 	<br>
-	{{hotel_list.text}}
+	{% endfor %}
 	</div>
 	{% endblock %}
-	<!-- Javascipt files, really need to understand this better -->
 	<script src="/static/js/jquery-2.1.0.js"></script>
 	</body>
 </html>
