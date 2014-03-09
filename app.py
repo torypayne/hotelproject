@@ -1,5 +1,7 @@
 from flask import Flask, render_template, redirect, request, url_for, flash
 import requests
+import json
+from pprint import pprint
 
 app = Flask(__name__)
 
@@ -24,10 +26,12 @@ def search_results():
 	 		"apiKey": "pnqbxpnwvest5ap5qrry4pk8", 
 	 		"locale": "en_US", "currencyCode": "USD",
 	 		"xml": xml_request}
+	#headers = {'Content-Type': 'application/json'}
 	r = requests.get("http://api.ean.com/ean-services/rs/hotel/v3/list?", params=payload)
-	print r.json
-	hotel_list = r.json
-	return render_template("search.html", city=city, checkin=checkin, checkout=checkout, hotel_list=hotel_list)
+	r = json.loads(r.text)
+	pprint(r)
+	print type(r)
+	return render_template("search.html", city=city, checkin=checkin, checkout=checkout, hotel_list=r)
 
 if __name__ == "__main__":
 	app.run(debug = True)
