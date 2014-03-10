@@ -8,16 +8,20 @@
 	<h3>Hotels in {{city}}<br>
 		<small> {{checkin}} - {{checkout}}</small></h3>
 	</div>
-	<div>
+
 	{% for hotel in hotel_list %}
-	Hotel: {{hotel["name"]}}
+	<div class="hotel-box">
+	<strong>{{hotel["name"]|replace("&apos;","'")|replace("&amp;","&")}}</strong>
 	<br>
-	TripAdvisor: {{hotel["tripAdvisorRating"]}}<br>
-	Average Nightly Rate: ${{hotel["RoomRateDetailsList"]["RoomRateDetails"]["RateInfos"]["RateInfo"]["ChargeableRateInfo"]["@averageRate"]}}
+	TripAdvisor: <img src="{{hotel['tripAdvisorRatingUrl']}}">
 	<br>
+	Average Nightly Rate: ${{hotel["RoomRateDetailsList"]["RoomRateDetails"]["RateInfos"]["RateInfo"]["ChargeableRateInfo"]["@averageRate"]|int}}</br>
+	Trip Total After Taxes: ${{hotel["RoomRateDetailsList"]["RoomRateDetails"]["RateInfos"]["RateInfo"]["ChargeableRateInfo"]["@total"]|int}}
+	<br>
+	</div>
 	<br>
 	{% endfor %}
-	</div>
+	
 	{% endblock %}
 	<script src="/static/js/jquery-2.1.0.js"></script>
 	</body>
