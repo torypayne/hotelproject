@@ -9,9 +9,12 @@
 	{% block body %}
 		<form class="search" method="POST">
                 <h2 class="search-heading">Where do you want to go?</h2>
+                {% for message in get_flashed_messages() %}
+                    {{message}} <br> <br>
+                {% endfor %}
+
                 <input type="text" class="form-control" placeholder="Search a City" name="search">
 				<!-- Going to need to add date popup stuff and restrictions on checkin checkout dates -->
-
 				 <input type="text" class="form-control" id="datepicker" name="checkin" placeholder="Check in - example date 4/10/2014"/> 
 				<input type="text" class="form-control" id="datepicker" name="checkout" placeholder="Check out - example date 4/12/2014"/>
  				<br> 

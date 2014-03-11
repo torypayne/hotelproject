@@ -4,6 +4,7 @@ import json
 from pprint import pprint
 
 app = Flask(__name__)
+app.secret_key = "tempsecret"
 
 @app.route("/")
 def index():
@@ -32,11 +33,15 @@ def search_results():
 	r = requests.get("http://api.ean.com/ean-services/rs/hotel/v3/list?", params=payload)
 	r = json.loads(r.text)
 	pprint(r)
-	hotel_list = r["HotelListResponse"]["HotelList"]["HotelSummary"]
-	return render_template("search.html", city=city, 
-										checkin=checkin, 
-										checkout=checkout, 
-										hotel_list=hotel_list)
+	try:
+		hotel_list = r["HotelListResponse"]["HotelList"]["HotelSummary"]
+		return render_template("search.html", city=city, 
+											checkin=checkin, 
+											checkout=checkout, 
+											hotel_list=hotel_list)
+	except:
+		flash("Oh no! We couldn't find any hotels that matched your request! Double check your destination spelling and specificity, then try different dates.")
+		return redirect(url_for("index"))
 
 if __name__ == "__main__":
 	app.run(debug = True)
