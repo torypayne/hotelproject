@@ -1,0 +1,1056 @@
+<body>
+ 	
+	<a name="topOfPage"></a>
+  <div style="padding-left:10px;padding-top:10px;padding-bottom:10px;padding-right:10px;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+   <tbody><tr valign="top">
+    <td>
+
+
+
+
+
+
+
+<div class="contentChunkWrapper">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td colspan="2" class="msgFormError">
+				
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle" align="left">
+				
+					
+					
+						<a href="/rewards/pointsGridPopUp.mi?awardType=Standard&amp;category=2" class="bodyCopy">&lt;&lt; Back</a>
+					
+					
+				
+			</td>
+			<td valign="middle" class="category-select"> 
+				<table border="0" cellpadding="0" cellspacing="0">
+					<form name="pointsGridPopUpActionForm" method="post" action="/rewards/pointsGridPopUpPropertyList.mi"></form>
+						<input type="hidden" name="backToAwardType" value="Standard">
+						<input type="hidden" name="backToCategory" value="2">
+						<tbody><tr>
+							<td class="bodyCopy" valign="middle" align="right">
+								View hotels in
+							</td>
+							<td class="bodyCopy">
+								&nbsp;
+							</td>
+							<td>
+								<select name="hotelCategoryOrTierValue" class="formContent"><option value="Category 1">Category 1</option>
+<option value="Category 2">Category 2</option>
+<option value="Category 3">Category 3</option>
+<option value="Category 4">Category 4</option>
+<option value="Category 5">Category 5</option>
+<option value="Category 6">Category 6</option>
+<option value="Category 7">Category 7</option>
+<option value="Category 8">Category 8</option>
+<option value="Category 9">Category 9</option>
+<option value="Tier 1">Tier 1</option>
+<option value="Tier 2">Tier 2</option>
+<option value="Tier 3" selected="selected">Tier 3</option>
+<option value="Tier 4">Tier 4</option>
+<option value="Tier 5">Tier 5</option></select>
+							</td>
+							<td class="bodyCopy">
+								&nbsp;&nbsp;
+							</td>
+							<td>
+							
+							<div class="clearFloat">
+								<button type="submit" name="submit" class="submit" title="Find">
+									<em>Find</em>
+								</button>
+							</div>								
+							</td>
+						</tr>
+					
+				</tbody></table>
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+
+
+    </td>
+   </tr>
+   
+   <tr valign="top">
+   <td align="left">
+   
+
+
+
+
+
+
+
+<div id="mr-category-popup-grid">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="bodyCopy" style="padding-top:10px;padding-bottom:10px;">
+	
+		<strong>Hotels by Reward Category</strong><br> This list shows all hotels in the category you selected. It does not reflect current Rewards availability.&nbsp;<br>
+	
+</div>
+
+<div class="pageHeader" style="padding-bottom:10px;">
+	<b>
+	
+		
+		
+			Tier&nbsp;3
+		
+	
+	</b>
+</div>
+
+
+
+
+<div style="padding-bottom:15px;">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		
+			
+			
+				
+				
+				<tbody><tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							USA
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+				
+				<tr>
+					<td class="bodyCopyBold">
+						California
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Dana Point-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/snarz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, Laguna Niguel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Half Moon Bay-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/hafrz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, Half Moon Bay
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Los Angeles-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/laxlz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, Los Angeles
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Marina del Rey-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/laxmd/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, Marina del Rey
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Truckee-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/rnorz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, Lake Tahoe
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Florida
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Fort Lauderdale-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/fllrz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, Fort Lauderdale
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Miami-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/miarz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton Coconut Grove, Miami
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Naples-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/rswrz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, Naples
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Georgia
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Greensboro-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/ahnrz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton Lodge, Reynolds Plantation
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Hawaii
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Kapalua-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/jhmrz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, Kapalua
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Louisiana
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					New Orleans-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/msyrz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, New Orleans
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Austria
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Vienna
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Vienna-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/vierz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, Vienna
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							China
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Hainan
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Sanya-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/syxrz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, Sanya
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Japan
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Osaka-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/osarz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, Osaka
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Mexico
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Quintana Roo
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Cancun-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/cunrz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, Cancun
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Puerto Rico
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Carolina-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/sjurz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, San Juan
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Russian Federation
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Moscow-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/mowrz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, Moscow
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Spain
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Tenerife
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Guia de Isora Tenerife-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/tfsrz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						ABAMA Golf &amp; Spa Resort
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Turkey
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Istanbul-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/istrz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, Istanbul
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+		<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td></tr>
+		<tr><td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td></tr>
+		<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td></tr>
+		<tr>
+			<td width="100%" align="right">
+				<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+				<a href="#topOfPage" class="bodyCopy">
+					Back to top
+				</a>
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+</div>
+   </td>
+   </tr>
+
+   <tr valign="top">
+    <td align="left">
+    
+
+<a href="#" onclick="javascript:window.close()" class="hws-category-close">Close window</a>
+
+
+    </td>
+   </tr>
+  </tbody></table>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+<input type="hidden" id="omniSiteTrackingOn" value="true">
+
+	
+	
+	<input type="hidden" id="moduleTrackingOn" value="true">
+	
+	
+  	
+	<input type="hidden" id="siteTrackingReportSuite" value="prod">
+	<input type="hidden" id="omniSiteLocale" value="US">
+	<input type="hidden" id="omniglobalSiteLanguage" value="en">
+	<input type="hidden" id="isReservationSite" value="true">
+	 
+	 
+	
+	<script type="text/javascript" src="/miJSPath/N945123113/bundles/sitecatalystlib.js"></script>
+
+	
+ 	
+  	     
+  	                                         
+  	
+	
+	
+	
+	
+	
+
+	
+	
+    
+	
+	
+	
+		
+		
+	
+	<input type="hidden" id="omniRememAuthen" value="false">
+	
+	
+	
+	
+	
+	
+	
+	
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<input type="hidden" id="omniEvars" value="0=,41=US">
+	<input type="hidden" id="omniProps" value="0=,5=US">
+	<input type="hidden" id="omniEvents" value="">
+	<input type="hidden" id="iata" value="">	
+	<input type="hidden" value="0" id="ctc-search-count">	
+	
+	
+		
+		
+			
+			
+			
+		
+	
+	
+    
+    
+     
+   
+   <input type="hidden" id="personalizedOmniParamList" value="">   
+   
+   <script type="text/javascript" src="/miJSPath/1943152305/common/js/OmnitureTrackingJS/omniTrackRun.js"></script>
+
+   
+
+  
+	
+	
+	   	
+
+
+
+ 
+
+
+
+
+
+
+
+	
+	
+	
+	
+	   	
+
+
+
+
+
+
+
+
+
+
+
+	
+	<script type="text/javascript" src="/miJSPath/948180467/bundles/mi_customer_survey.js"></script>
+
+
+	
+	
+ 
+
+</body>
