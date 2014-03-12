@@ -1,0 +1,5590 @@
+<body>
+ 	
+	<a name="topOfPage"></a>
+  <div style="padding-left:10px;padding-top:10px;padding-bottom:10px;padding-right:10px;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+   <tbody><tr valign="top">
+    <td>
+
+
+
+
+
+
+
+<div class="contentChunkWrapper">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td colspan="2" class="msgFormError">
+				
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle" align="left">
+				
+					
+					
+						<a href="/rewards/pointsGridPopUp.mi?awardType=Standard&amp;category=2" class="bodyCopy">&lt;&lt; Back</a>
+					
+					
+				
+			</td>
+			<td valign="middle" class="category-select"> 
+				<table border="0" cellpadding="0" cellspacing="0">
+					<form name="pointsGridPopUpActionForm" method="post" action="/rewards/pointsGridPopUpPropertyList.mi"></form>
+						<input type="hidden" name="backToAwardType" value="Standard">
+						<input type="hidden" name="backToCategory" value="2">
+						<tbody><tr>
+							<td class="bodyCopy" valign="middle" align="right">
+								View hotels in
+							</td>
+							<td class="bodyCopy">
+								&nbsp;
+							</td>
+							<td>
+								<select name="hotelCategoryOrTierValue" class="formContent"><option value="Category 1" selected="selected">Category 1</option>
+<option value="Category 2">Category 2</option>
+<option value="Category 3">Category 3</option>
+<option value="Category 4">Category 4</option>
+<option value="Category 5">Category 5</option>
+<option value="Category 6">Category 6</option>
+<option value="Category 7">Category 7</option>
+<option value="Category 8">Category 8</option>
+<option value="Category 9">Category 9</option>
+<option value="Tier 1">Tier 1</option>
+<option value="Tier 2">Tier 2</option>
+<option value="Tier 3">Tier 3</option>
+<option value="Tier 4">Tier 4</option>
+<option value="Tier 5">Tier 5</option></select>
+							</td>
+							<td class="bodyCopy">
+								&nbsp;&nbsp;
+							</td>
+							<td>
+							
+							<div class="clearFloat">
+								<button type="submit" name="submit" class="submit" title="Find">
+									<em>Find</em>
+								</button>
+							</div>								
+							</td>
+						</tr>
+					
+				</tbody></table>
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+
+
+    </td>
+   </tr>
+   
+   <tr valign="top">
+   <td align="left">
+   
+
+
+
+
+
+
+
+<div id="mr-category-popup-grid">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="bodyCopy" style="padding-top:10px;padding-bottom:10px;">
+	
+		<strong>Hotels by Reward Category</strong><br> This list shows all hotels in the category you selected. It does not reflect current Rewards availability.&nbsp;<br>
+	
+</div>
+
+<div class="pageHeader" style="padding-bottom:10px;">
+	<b>
+	
+		
+			Category&nbsp;1
+		
+		
+	
+	</b>
+</div>
+
+
+
+
+<div style="padding-bottom:15px;">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		
+			
+			
+				
+				
+				<tbody><tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							USA
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Alabama
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Birmingham-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/bhmth-towneplace-suites-birmingham-homewood/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Birmingham Homewood
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Dothan-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dhnal-fairfield-inn-dothan/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Dothan
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Gadsden-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/bhmgd-fairfield-inn-and-suites-gadsden/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Gadsden
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Huntsville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/hsvfi-fairfield-inn-huntsville/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Huntsville
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Huntsville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/hsvts-towneplace-suites-huntsville/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Huntsville
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Mobile-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mobfi-fairfield-inn-and-suites-mobile/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Mobile
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Mobile-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mobts-towneplace-suites-mobile/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Mobile
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Montgomery-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mgmap-fairfield-inn-and-suites-montgomery-airport-south/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Montgomery Airport South
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Oxford-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/bhmfo-fairfield-inn-and-suites-anniston-oxford/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Anniston Oxford
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Arizona
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Yuma-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/yumfi-fairfield-inn-and-suites-yuma/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Yuma
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Arkansas
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Bentonville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/rogts-towneplace-suites-bentonville-rogers/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Bentonville Rogers
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Conway-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/litcw-fairfield-inn-and-suites-conway/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Conway
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Jonesboro-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/jbrfi-fairfield-inn-and-suites-jonesboro/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Jonesboro
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Rogers-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/rogfi-fairfield-inn-and-suites-bentonville-rogers/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Bentonville Rogers
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Russellville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/litrv-fairfield-inn-and-suites-russellville/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Russellville
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Springdale-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/fyvjh-towneplace-suites-fayetteville-north-springdale/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Fayetteville North/Springdale
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Springdale-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/spzfi-fairfield-inn-and-suites-springdale/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Springdale
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						California
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					El Centro-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/iplfi-fairfield-inn-and-suites-el-centro/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites El Centro
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					El Centro-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/iplts-towneplace-suites-el-centro/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites El Centro
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Kingsburg-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/fatkb-fairfield-inn-and-suites-selma-kingsburg/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Selma Kingsburg
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Rancho Cordova-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sacfs-fairfield-inn-and-suites-rancho-cordova/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Rancho Cordova
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Roseville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sacst-towneplace-suites-sacramento-roseville/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Sacramento Roseville
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Sacramento-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/saccx-towneplace-suites-sacramento-cal-expo/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Sacramento Cal Expo
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Sacramento-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sacxp-fairfield-inn-sacramento-cal-expo/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Sacramento Cal Expo
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Salida-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/modfi-fairfield-inn-and-suites-modesto-salida/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Modesto Salida
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Tehachapi-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/bflfi-fairfield-inn-and-suites-tehachapi/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Tehachapi
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Tracy-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/scksf-fairfield-inn-tracy/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Tracy
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Tulare-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/visvt-fairfield-inn-and-suites-visalia-tulare/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Visalia Tulare
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Turlock-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/modtl-fairfield-inn-and-suites-turlock/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Turlock
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Colorado
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Englewood-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dents-towneplace-suites-denver-tech-center/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Denver Tech Center
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Littleton-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dentp-towneplace-suites-denver-southwest-littleton/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Denver Southwest/Littleton
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Connecticut
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Plainville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/bdlpv-fairfield-inn-and-suites-plainville/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Plainville
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Wallingford-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/hvnfw-fairfield-inn-new-haven-wallingford/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn New Haven Wallingford
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Florida
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Fort Pierce-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mlbfp-fairfield-inn-and-suites-fort-pierce/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Fort Pierce
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Marianna-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dhnfi-fairfield-inn-and-suites-marianna/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Marianna
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Georgia
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Albany-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/abyab-fairfield-inn-and-suites-albany/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Albany
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Alpharetta-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/atlfi-fairfield-inn-and-suites-atlanta-alpharetta/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Atlanta Alpharetta
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Alpharetta-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/atlta-towneplace-suites-atlanta-alpharetta/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Atlanta Alpharetta
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Atlanta-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/atlts-towneplace-suites-atlanta-northlake/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Atlanta Northlake
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Atlanta-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/atlvn-fairfield-inn-and-suites-atlanta-vinings/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Atlanta Vinings
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Duluth-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/atlga-fairfield-inn-and-suites-atlanta-gwinnett-place/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Atlanta Gwinnett Place
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Hinesville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/savhv-fairfield-inn-and-suites-hinesville-fort-stewart/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Hinesville Fort Stewart
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Lithia Springs-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/atlsf-fairfield-inn-and-suites-atlanta-at-six-flags/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Atlanta at Six Flags
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Milledgeville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mcnmd-fairfield-inn-and-suites-milledgeville/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Milledgeville
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Norcross-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/atltn-towneplace-suites-atlanta-norcross-peachtree-corners/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Atlanta Norcross/Peachtree Corners
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Suwanee-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/atlsw-fairfield-inn-and-suites-atlanta-suwanee/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Atlanta Suwanee
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Idaho
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Boise-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/boits-towneplace-suites-boise-downtown/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Boise Downtown
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Meridian-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/boibw-towneplace-suites-boise-west-meridian/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Boise West/Meridian
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Nampa-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/boinp-fairfield-inn-and-suites-boise-nampa/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Boise Nampa
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Illinois
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Bourbonnais-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/chikk-fairfield-inn-kankakee-bourbonnais/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Kankakee Bourbonnais
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Danville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dnvil-fairfield-inn-danville/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Danville
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					East Peoria-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/piape-fairfield-inn-and-suites-peoria-east/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Peoria East
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Forsyth-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/decde-fairfield-inn-forsyth-decatur/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Forsyth Decatur
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Lombard-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/chifs-fairfield-inn-and-suites-chicago-lombard/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Chicago Lombard
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Lombard-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/chitl-towneplace-suites-chicago-lombard/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Chicago Lombard
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Ottawa-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mdwot-fairfield-inn-and-suites-ottawa-starved-rock-area/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Ottawa Starved Rock Area
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Quincy-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/uinqu-fairfield-inn-and-suites-quincy/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Quincy
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					West Dundee-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/chits-towneplace-suites-chicago-elgin-west-dundee/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Chicago Elgin/West Dundee
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Indiana
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Evansville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/evvfw-fairfield-inn-evansville-west/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Evansville West
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Evansville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/evvin-fairfield-inn-evansville-east/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Evansville East
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Indianapolis-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/indts-towneplace-suites-indianapolis-park-100/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Indianapolis Park 100
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Jeffersonville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sdftj-towneplace-suites-louisville-north/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Louisville North
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Kokomo-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/okkko-fairfield-inn-kokomo/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Kokomo
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Princeton-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/evvpc-fairfield-inn-princeton/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Princeton
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Seymour-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/indse-fairfield-inn-and-suites-seymour/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Seymour
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Vincennes-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/evvts-towneplace-suites-vincennes/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Vincennes
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Iowa
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Burlington-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/brlfi-fairfield-inn-and-suites-burlington/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Burlington
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Muscatine-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mlifi-fairfield-inn-muscatine/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Muscatine
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Ottumwa-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/otmfi-fairfield-inn-ottumwa/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Ottumwa
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Kansas
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Wichita-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/ictfd-fairfield-inn-and-suites-wichita-downtown/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Wichita Downtown
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Wichita-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/ictfi-fairfield-inn-and-suites-wichita-east/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Wichita East
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Wichita-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/ictte-towneplace-suites-wichita-east/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Wichita East
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Kentucky
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Ashland-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/htsfi-fairfield-inn-and-suites-ashland/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Ashland
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Hopkinsville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/hvcfi-fairfield-inn-and-suites-hopkinsville/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Hopkinsville
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Owensboro-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/owbfi-fairfield-inn-owensboro/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Owensboro
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Louisiana
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Baton Rouge-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/btrts-towneplace-suites-baton-rouge-south/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Baton Rouge South
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Gonzales-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/btrgz-towneplace-suites-baton-rouge-gonzales/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Baton Rouge Gonzales
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Houma-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/msyhm-fairfield-inn-and-suites-houma/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Houma
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Lafayette-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/lftfi-fairfield-inn-and-suites-lafayette-i-10/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Lafayette I-10
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Natchitoches-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/ierfi-fairfield-inn-and-suites-natchitoches/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Natchitoches
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Shreveport-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/shvfi-fairfield-inn-shreveport-airport/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Shreveport Airport
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Sulphur-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/lchsl-fairfield-inn-and-suites-lake-charles-sulphur/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Lake Charles Sulphur
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Maryland
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Lexington Park-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/wastl-towneplace-suites-lexington-park-patuxent-river-naval-air-station/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Lexington Park Patuxent River Naval Air Station
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Michigan
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Auburn Hills-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dtwah-fairfield-inn-detroit-auburn-hills/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Detroit Auburn Hills
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Battle Creek-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/btlfi-fairfield-inn-battle-creek/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Battle Creek
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Canton-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dtwwe-fairfield-inn-detroit-west-canton/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Detroit West/Canton
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Farmington Hills-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dtwfh-fairfield-inn-and-suites-detroit-farmington-hills/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Detroit Farmington Hills
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Fenton-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/fntff-fairfield-inn-and-suites-flint-fenton/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Flint Fenton
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Livonia-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dtwfl-fairfield-inn-and-suites-detroit-livonia/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Detroit Livonia
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Livonia-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dtwtl-towneplace-suites-detroit-livonia/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Detroit Livonia
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Madison Heights-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dtwmh-fairfield-inn-detroit-troy-madison-heights/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Detroit Troy/Madison Heights
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Novi-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dtwts-towneplace-suites-detroit-novi/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Detroit Novi
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Saginaw-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mbsfi-fairfield-inn-saginaw/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Saginaw
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Sterling Heights-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dtwtu-towneplace-suites-detroit-sterling-heights/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Detroit Sterling Heights
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Warren-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dtwdw-towneplace-suites-detroit-warren/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Detroit Warren
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Minnesota
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Eagan-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/msptg-towneplace-suites-minneapolis-st-paul-airport-eagan/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Minneapolis-St. Paul Airport/Eagan
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Eden Prairie-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mspte-towneplace-suites-minneapolis-eden-prairie/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Minneapolis Eden Prairie
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					St. Louis Park-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mspls-towneplace-suites-minneapolis-west-st-louis-park/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Minneapolis West/St. Louis Park
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Mississippi
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Meridian-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/meifi-fairfield-inn-and-suites-meridian/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Meridian
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Olive Branch-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/memob-fairfield-inn-and-suites-memphis-olive-branch/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Memphis Olive Branch
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Tupelo-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/tupfi-fairfield-inn-and-suites-tupelo/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Tupelo
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Missouri
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Jefferson City-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/coujc-fairfield-inn-and-suites-jefferson-city/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Jefferson City
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Joplin-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/jlnts-towneplace-suites-joplin/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Joplin
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						New Jersey
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Mount Laurel-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/phltl-towneplace-suites-mt-laurel/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Mt. Laurel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						New Mexico
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Alamogordo-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/almfi-fairfield-inn-and-suites-alamogordo/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Alamogordo
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Clovis-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/cvnco-fairfield-inn-and-suites-clovis/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Clovis
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Farmington-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/fmnts-towneplace-suites-farmington/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Farmington
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Las Cruces-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/lrufi-fairfield-inn-las-cruces/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Las Cruces
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Las Cruces-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/lruts-towneplace-suites-las-cruces/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Las Cruces
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						North Carolina
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Charlotte-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/cltts-towneplace-suites-charlotte-university-research-park/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Charlotte University Research Park
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Charlotte-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/clttw-towneplace-suites-charlotte-arrowood/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Charlotte Arrowood
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Gastonia-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/cltgs-fairfield-inn-charlotte-gastonia/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Charlotte Gastonia
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Hickory-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/hkyfy-fairfield-inn-and-suites-hickory/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Hickory
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Kannapolis-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/cltkn-fairfield-inn-kannapolis/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Kannapolis
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Ohio
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Cincinnati-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/cvgtn-towneplace-suites-cincinnati-northeast/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Cincinnati Northeast
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Columbus-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/cmhtw-towneplace-suites-columbus-worthington/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Columbus Worthington
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Dayton-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/daysf-fairfield-inn-and-suites-dayton-south/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Dayton South
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Dayton-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dayts-towneplace-suites-dayton-north/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Dayton North
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Findlay-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/tolfi-fairfield-inn-and-suites-findlay/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Findlay
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Findlay-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/toltf-towneplace-suites-findlay/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Findlay
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Lima-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/daylm-fairfield-inn-lima/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Lima
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Marion-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/cmhmo-fairfield-inn-marion/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Marion
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Middleburg Heights-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/cleta-towneplace-suites-cleveland-airport/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Cleveland Airport
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					New Paris-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/daynp-fairfield-inn-richmond/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Richmond
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Streetsboro-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/clesw-towneplace-suites-cleveland-streetsboro/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Cleveland Streetsboro
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Troy-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/daytr-fairfield-inn-and-suites-dayton-troy/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Dayton Troy
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Oklahoma
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Bartlesville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/tulbv-fairfield-inn-and-suites-bartlesville/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Bartlesville
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Broken Arrow-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/tults-towneplace-suites-tulsa-broken-arrow/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Tulsa Broken Arrow
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Lawton-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/lawfi-fairfield-inn-and-suites-lawton/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Lawton
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Muskogee-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/tulmk-fairfield-inn-and-suites-muskogee/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Muskogee
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Oklahoma City-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/okcex-fairfield-inn-and-suites-oklahoma-city-nw-expressway-warr-acres/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Oklahoma City NW Expressway/Warr Acres
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Owasso-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/tulno-towneplace-suites-tulsa-north-owasso/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Tulsa North/Owasso
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Ponca City-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/pncfi-fairfield-inn-and-suites-ponca-city/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Ponca City
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Tulsa-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/tulcr-fairfield-inn-and-suites-tulsa-southeast-crossroads-village/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Tulsa Southeast/Crossroads Village
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Tulsa-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/tulfi-fairfield-inn-tulsa-woodland-hills/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Tulsa Woodland Hills
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Weatherford-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/ojafi-fairfield-inn-and-suites-weatherford/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Weatherford
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Pennsylvania
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Horsham-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/phlth-towneplace-suites-philadelphia-horsham/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Philadelphia Horsham
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						South Carolina
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Greenville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/gsppr-fairfield-inn-greenville-spartanburg-airport/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Greenville-Spartanburg Airport
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Greenville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/gspts-towneplace-suites-greenville-haywood-mall/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Greenville Haywood Mall
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Greenwood-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/grdfi-fairfield-inn-and-suites-greenwood/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Greenwood
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						South Dakota
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Brookings-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/bkxfi-fairfield-inn-and-suites-brookings/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Brookings
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Texas
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Beaumont-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/bptfi-fairfield-inn-and-suites-beaumont/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Beaumont
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Bedford-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dalbt-towneplace-suites-dallas-bedford/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Dallas Bedford
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Channelview-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/houcv-fairfield-inn-and-suites-houston-channelview/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Houston Channelview
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Clute-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/houct-towneplace-suites-lake-jackson-clute/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Lake Jackson Clute
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Conroe-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/houcr-fairfield-inn-and-suites-houston-conroe-the-woodlands/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Houston Conroe/The Woodlands
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Dallas-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dalfb-fairfield-inn-and-suites-dallas-north-by-the-galleria/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Dallas North by the Galleria
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Dallas-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dalpc-fairfield-inn-and-suites-dallas-park-central/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Dallas Park Central
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					DeSoto-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dalds-towneplace-suites-dallas-desoto/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Dallas DeSoto
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Eagle Pass-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/egpts-towneplace-suites-eagle-pass/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Eagle Pass
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Fort Worth-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dfwnf-fairfield-inn-and-suites-fort-worth-fossil-creek/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Fort Worth/Fossil Creek
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Houston-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/houfn-fairfield-inn-and-suites-houston-i-45-north/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Houston I-45 North
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Houston-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/houic-fairfield-inn-and-suites-houston-intercontinental-airport/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Houston Intercontinental Airport
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Houston-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/hounf-towneplace-suites-houston-central-northwest-freeway/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Houston Central/Northwest Freeway
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Houston-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/houta-towneplace-suites-houston-intercontinental-airport/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Houston Intercontinental Airport
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Houston-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/houtn-towneplace-suites-houston-northwest/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Houston Northwest
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Houston-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/houts-towneplace-suites-houston-i-10-west-energy-corridor/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Houston I-10 West/Energy Corridor
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Irving-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dalfl-fairfield-inn-and-suites-dallas-las-colinas/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Dallas Las Colinas
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Irving-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dalts-towneplace-suites-dallas-las-colinas/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Dallas Las Colinas
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Irving-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dfwsi-fairfield-inn-and-suites-dallas-dfw-airport-south-irving/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Dallas DFW Airport South/Irving
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Killeen-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/ilefi-fairfield-inn-and-suites-killeen/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Killeen
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Killeen-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/ilets-towneplace-suites-killeen/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Killeen
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Lewisville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dalle-fairfield-inn-dallas-lewisville/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Dallas Lewisville
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Longview-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/lgvfi-fairfield-inn-longview/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Longview
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Marshall-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/lgvfs-fairfield-inn-and-suites-marshall/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Marshall
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					McAllen-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mfefi-fairfield-inn-and-suites-mcallen-airport/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites McAllen Airport
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Plano-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dalfp-fairfield-inn-and-suites-dallas-plano/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Dallas Plano
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Plano-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/daltp-towneplace-suites-dallas-plano/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Dallas Plano
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Shenandoah-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/houtl-towneplace-suites-houston-the-woodlands/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Houston The Woodlands
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Temple-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/tplfi-fairfield-inn-temple/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Temple
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Texarkana-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/txkfi-fairfield-inn-and-suites-texarkana/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Texarkana
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Texarkana-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/txkts-towneplace-suites-texarkana/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Texarkana
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					The Colony-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/daltc-fairfield-inn-and-suites-dallas-plano-the-colony/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Dallas Plano/The Colony
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Weatherford-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dfwws-fairfield-inn-and-suites-weatherford/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Weatherford
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Weslaco-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mfefw-fairfield-inn-and-suites-weslaco/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Weslaco
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Utah
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Layton-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/slcly-fairfield-inn-salt-lake-city-layton/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Salt Lake City Layton
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Layton-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/slctl-towneplace-suites-salt-lake-city-layton/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Salt Lake City Layton
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Virginia
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Chantilly-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/iadts-towneplace-suites-chantilly-dulles-south/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Chantilly Dulles South
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Glen Allen-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/ricts-towneplace-suites-richmond/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Richmond
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					South Boston-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/lyhsb-fairfield-inn-and-suites-south-boston/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites South Boston
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					South Hill-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/ricst-fairfield-inn-and-suites-south-hill-i-85/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites South Hill I-85
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Sterling-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/iadtf-towneplace-suites-dulles-airport/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Dulles Airport
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Sterling-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/iadtp-towneplace-suites-sterling-dulles-north/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Sterling Dulles North
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Suffolk-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/orfst-towneplace-suites-suffolk-chesapeake/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Suffolk Chesapeake
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Winchester-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/wgots-towneplace-suites-winchester/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Winchester
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Wisconsin
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Beloit-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/rfdbl-fairfield-inn-and-suites-beloit/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Beloit
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Brookfield-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mkets-towneplace-suites-milwaukee-brookfield/" target="_blank">
+							    
+						   
+						
+					
+						TownePlace Suites Milwaukee Brookfield
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Stevens Point-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/stefi-fairfield-inn-and-suites-stevens-point/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Stevens Point
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Weston-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/cwafi-fairfield-inn-and-suites-wausau/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Wausau
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Canada
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Ontario
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Guelph-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/ykffi-fairfield-inn-and-suites-guelph/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Guelph
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							India
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Bengaluru-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/blrfb-fairfield-by-marriott-bengaluru-rajajinagar/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield by Marriott Bengaluru Rajajinagar
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Mexico
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Baja California
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Cabo San Lucas-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sjdfi-fairfield-inn-los-cabos/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Los Cabos
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Nuevo Leon
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Apodaca-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mtyfi-fairfield-inn-monterrey-airport/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn Monterrey Airport
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+		<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td></tr>
+		<tr><td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td></tr>
+		<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td></tr>
+		<tr>
+			<td width="100%" align="right">
+				<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+				<a href="#topOfPage" class="bodyCopy">
+					Back to top
+				</a>
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+</div>
+   </td>
+   </tr>
+
+   <tr valign="top">
+    <td align="left">
+    
+
+<a href="#" onclick="javascript:window.close()" class="hws-category-close">Close window</a>
+
+
+    </td>
+   </tr>
+  </tbody></table>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+<input type="hidden" id="omniSiteTrackingOn" value="true">
+
+	
+	
+	<input type="hidden" id="moduleTrackingOn" value="true">
+	
+	
+  	
+	<input type="hidden" id="siteTrackingReportSuite" value="prod">
+	<input type="hidden" id="omniSiteLocale" value="US">
+	<input type="hidden" id="omniglobalSiteLanguage" value="en">
+	<input type="hidden" id="isReservationSite" value="true">
+	 
+	 
+	
+	<script type="text/javascript" src="/miJSPath/N945123113/bundles/sitecatalystlib.js"></script>
+
+	
+ 	
+  	     
+  	                                         
+  	
+	
+	
+	
+	
+	
+
+	
+	
+    
+	
+	
+	
+		
+		
+	
+	<input type="hidden" id="omniRememAuthen" value="false">
+	
+	
+	
+	
+	
+	
+	
+	
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<input type="hidden" id="omniEvars" value="0=,41=US">
+	<input type="hidden" id="omniProps" value="0=,5=US">
+	<input type="hidden" id="omniEvents" value="">
+	<input type="hidden" id="iata" value="">	
+	<input type="hidden" value="0" id="ctc-search-count">	
+	
+	
+		
+		
+			
+			
+			
+		
+	
+	
+    
+    
+     
+   
+   <input type="hidden" id="personalizedOmniParamList" value="">   
+   
+   <script type="text/javascript" src="/miJSPath/1943152305/common/js/OmnitureTrackingJS/omniTrackRun.js"></script>
+
+   
+
+  
+	
+	
+	   	
+
+
+
+ 
+
+
+
+
+
+
+
+	
+	
+	
+	
+	   	
+
+
+
+
+
+
+
+
+
+
+
+	
+	<script type="text/javascript" src="/miJSPath/948180467/bundles/mi_customer_survey.js"></script>
+
+
+	
+	
+ 
+
+</body>

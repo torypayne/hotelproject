@@ -57,6 +57,9 @@ for i in range(1,8):
 				Hotel_dictionary[hotel]["highseasonrate"] = high_season_points_list[i]
 				Hotel_dictionary[hotel]["weekendrateapplies"] = weekendpossible
 				Hotel_dictionary[hotel]["weekendpointrate"] = weekeendpoint_list[i]
+				Hotel_dictionary[hotel]["pointsaverapplies"] = False
+				Hotel_dictionary[hotel]["pointsaverdates"] = False
+				Hotel_dictionary[hotel]["pointsaverrate"] = point_list[i]
 			except:
 				print "Add manually "+a.contents[0]
 

@@ -1,0 +1,419 @@
+<body>
+ 	
+	<a name="topOfPage"></a>
+  <div style="padding-left:10px;padding-top:10px;padding-bottom:10px;padding-right:10px;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+   <tbody><tr valign="top">
+    <td>
+
+
+
+
+
+
+
+<div class="contentChunkWrapper">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td colspan="2" class="msgFormError">
+				
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle" align="left">
+				
+					
+					
+						<a href="/rewards/pointsGridPopUp.mi?awardType=Standard&amp;category=2" class="bodyCopy">&lt;&lt; Back</a>
+					
+					
+				
+			</td>
+			<td valign="middle" class="category-select"> 
+				<table border="0" cellpadding="0" cellspacing="0">
+					<form name="pointsGridPopUpActionForm" method="post" action="/rewards/pointsGridPopUpPropertyList.mi"></form>
+						<input type="hidden" name="backToAwardType" value="Standard">
+						<input type="hidden" name="backToCategory" value="2">
+						<tbody><tr>
+							<td class="bodyCopy" valign="middle" align="right">
+								View hotels in
+							</td>
+							<td class="bodyCopy">
+								&nbsp;
+							</td>
+							<td>
+								<select name="hotelCategoryOrTierValue" class="formContent"><option value="Category 1">Category 1</option>
+<option value="Category 2">Category 2</option>
+<option value="Category 3">Category 3</option>
+<option value="Category 4">Category 4</option>
+<option value="Category 5">Category 5</option>
+<option value="Category 6">Category 6</option>
+<option value="Category 7">Category 7</option>
+<option value="Category 8">Category 8</option>
+<option value="Category 9">Category 9</option>
+<option value="Tier 1">Tier 1</option>
+<option value="Tier 2">Tier 2</option>
+<option value="Tier 3">Tier 3</option>
+<option value="Tier 4">Tier 4</option>
+<option value="Tier 5" selected="selected">Tier 5</option></select>
+							</td>
+							<td class="bodyCopy">
+								&nbsp;&nbsp;
+							</td>
+							<td>
+							
+							<div class="clearFloat">
+								<button type="submit" name="submit" class="submit-hover" title="Find">
+									<em>Find</em>
+								</button>
+							</div>								
+							</td>
+						</tr>
+					
+				</tbody></table>
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+
+
+    </td>
+   </tr>
+   
+   <tr valign="top">
+   <td align="left">
+   
+
+
+
+
+
+
+
+<div id="mr-category-popup-grid">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="bodyCopy" style="padding-top:10px;padding-bottom:10px;">
+	
+		<strong>Hotels by Reward Category</strong><br> This list shows all hotels in the category you selected. It does not reflect current Rewards availability.&nbsp;<br>
+	
+</div>
+
+<div class="pageHeader" style="padding-bottom:10px;">
+	<b>
+	
+		
+		
+			Tier&nbsp;5
+		
+	
+	</b>
+</div>
+
+
+
+
+<div style="padding-bottom:15px;">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		
+			
+			
+				
+				
+				<tbody><tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							USA
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+				
+				<tr>
+					<td class="bodyCopyBold">
+						New York
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					New York-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/nyccp/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton New York, Central Park
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							China
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Hong Kong-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/hkgkw/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton, Hong Kong
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Shanghai-
+					
+						
+							
+				            <a href="http://www.ritzcarlton.com/en/prm/shasz/Properties/Request/Default.htm?mtid=marriott&amp;locale=&amp;rn=" class="ritz-hws-url" target="_blank">	
+						
+						
+					
+						The Ritz-Carlton Shanghai, Pudong
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+		<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td></tr>
+		<tr><td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td></tr>
+		<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td></tr>
+		<tr>
+			<td width="100%" align="right">
+				<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+				<a href="#topOfPage" class="bodyCopy">
+					Back to top
+				</a>
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+</div>
+   </td>
+   </tr>
+
+   <tr valign="top">
+    <td align="left">
+    
+
+<a href="#" onclick="javascript:window.close()" class="hws-category-close">Close window</a>
+
+
+    </td>
+   </tr>
+  </tbody></table>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+<input type="hidden" id="omniSiteTrackingOn" value="true">
+
+	
+	
+	<input type="hidden" id="moduleTrackingOn" value="true">
+	
+	
+  	
+	<input type="hidden" id="siteTrackingReportSuite" value="prod">
+	<input type="hidden" id="omniSiteLocale" value="US">
+	<input type="hidden" id="omniglobalSiteLanguage" value="en">
+	<input type="hidden" id="isReservationSite" value="true">
+	 
+	 
+	
+	<script type="text/javascript" src="/miJSPath/N945123113/bundles/sitecatalystlib.js"></script>
+
+	
+ 	
+  	     
+  	                                         
+  	
+	
+	
+	
+	
+	
+
+	
+	
+    
+	
+	
+	
+		
+		
+	
+	<input type="hidden" id="omniRememAuthen" value="false">
+	
+	
+	
+	
+	
+	
+	
+	
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<input type="hidden" id="omniEvars" value="0=,41=US">
+	<input type="hidden" id="omniProps" value="0=,5=US">
+	<input type="hidden" id="omniEvents" value="">
+	<input type="hidden" id="iata" value="">	
+	<input type="hidden" value="0" id="ctc-search-count">	
+	
+	
+		
+		
+			
+			
+			
+		
+	
+	
+    
+    
+     
+   
+   <input type="hidden" id="personalizedOmniParamList" value="">   
+   
+   <script type="text/javascript" src="/miJSPath/1943152305/common/js/OmnitureTrackingJS/omniTrackRun.js"></script>
+
+   
+
+  
+	
+	
+	   	
+
+
+
+ 
+
+
+
+
+
+
+
+	
+	
+	
+	
+	   	
+
+
+
+
+
+
+
+
+
+
+
+	
+	<script type="text/javascript" src="/miJSPath/948180467/bundles/mi_customer_survey.js"></script>
+
+
+	
+	
+ 
+
+</body>

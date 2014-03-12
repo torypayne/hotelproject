@@ -1,0 +1,4014 @@
+<body>
+ 	
+	<a name="topOfPage"></a>
+  <div style="padding-left:10px;padding-top:10px;padding-bottom:10px;padding-right:10px;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+   <tbody><tr valign="top">
+    <td>
+
+
+
+
+
+
+
+<div class="contentChunkWrapper">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td colspan="2" class="msgFormError">
+				
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle" align="left">
+				
+					
+					
+						<a href="/rewards/pointsGridPopUp.mi?awardType=Standard&amp;category=2" class="bodyCopy">&lt;&lt; Back</a>
+					
+					
+				
+			</td>
+			<td valign="middle" class="category-select"> 
+				<table border="0" cellpadding="0" cellspacing="0">
+					<form name="pointsGridPopUpActionForm" method="post" action="/rewards/pointsGridPopUpPropertyList.mi"></form>
+						<input type="hidden" name="backToAwardType" value="Standard">
+						<input type="hidden" name="backToCategory" value="2">
+						<tbody><tr>
+							<td class="bodyCopy" valign="middle" align="right">
+								View hotels in
+							</td>
+							<td class="bodyCopy">
+								&nbsp;
+							</td>
+							<td>
+								<select name="hotelCategoryOrTierValue" class="formContent"><option value="Category 1">Category 1</option>
+<option value="Category 2">Category 2</option>
+<option value="Category 3">Category 3</option>
+<option value="Category 4">Category 4</option>
+<option value="Category 5">Category 5</option>
+<option value="Category 6">Category 6</option>
+<option value="Category 7" selected="selected">Category 7</option>
+<option value="Category 8">Category 8</option>
+<option value="Category 9">Category 9</option>
+<option value="Tier 1">Tier 1</option>
+<option value="Tier 2">Tier 2</option>
+<option value="Tier 3">Tier 3</option>
+<option value="Tier 4">Tier 4</option>
+<option value="Tier 5">Tier 5</option></select>
+							</td>
+							<td class="bodyCopy">
+								&nbsp;&nbsp;
+							</td>
+							<td>
+							
+							<div class="clearFloat">
+								<button type="submit" name="submit" class="submit" title="Find">
+									<em>Find</em>
+								</button>
+							</div>								
+							</td>
+						</tr>
+					
+				</tbody></table>
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+
+
+    </td>
+   </tr>
+   
+   <tr valign="top">
+   <td align="left">
+   
+
+
+
+
+
+
+
+<div id="mr-category-popup-grid">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="bodyCopy" style="padding-top:10px;padding-bottom:10px;">
+	
+		<strong>Hotels by Reward Category</strong><br> This list shows all hotels in the category you selected. It does not reflect current Rewards availability.&nbsp;<br>
+	
+</div>
+
+<div class="pageHeader" style="padding-bottom:10px;">
+	<b>
+	
+		
+			Category&nbsp;7
+		
+		
+	
+	</b>
+</div>
+
+
+
+
+<div style="padding-bottom:15px;">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		
+			
+			
+				
+				
+				<tbody><tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							USA
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Arizona
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Phoenix-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/phxcv-marriotts-canyon-villas/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Canyon Villas
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Phoenix-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/phxdr-jw-marriott-phoenix-desert-ridge-resort-and-spa/" target="_blank">
+							    
+						   
+						
+					
+						JW Marriott Phoenix Desert Ridge Resort &amp; Spa
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Scottsdale-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/phxcb-jw-marriott-scottsdale-camelback-inn-resort-and-spa/" target="_blank">
+							    
+						   
+						
+					
+						JW Marriott Scottsdale Camelback Inn Resort &amp; Spa
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						California
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Coronado-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sanci-coronado-island-marriott-resort-and-spa/" target="_blank">
+							    
+						   
+						
+					
+						Coronado Island Marriott Resort &amp; Spa
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Los Angeles-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/laxjw-jw-marriott-los-angeles-la-live/" target="_blank">
+							    
+						   
+						
+					
+						JW Marriott Los Angeles L.A. LIVE
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Napa-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sfonp-napa-valley-marriott-hotel-and-spa/" target="_blank">
+							    
+						   
+						
+					
+						Napa Valley Marriott Hotel &amp; Spa
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					San Diego-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sandt-marriott-marquis-san-diego-marina/" target="_blank">
+							    
+						   
+						
+					
+						Marriott Marquis San Diego Marina
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					San Diego-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sangl-san-diego-marriott-gaslamp-quarter/" target="_blank">
+							    
+						   
+						
+					
+						San Diego Marriott Gaslamp Quarter
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					San Francisco-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sfoak-hotel-adagio-autograph-collection/" target="_blank">
+							    
+						   
+						
+					
+						Hotel Adagio, Autograph Collection®
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					San Francisco-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sfocf-courtyard-san-francisco-fishermans-wharf/" target="_blank">
+							    
+						   
+						
+					
+						Courtyard San Francisco Fisherman's Wharf
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					San Francisco-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sfodt-san-francisco-marriott-marquis/" target="_blank">
+							    
+						   
+						
+					
+						San Francisco Marriott Marquis
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					San Francisco-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sfous-san-francisco-marriott-union-square/" target="_blank">
+							    
+						   
+						
+					
+						San Francisco Marriott Union Square
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					South Lake Tahoe-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/rnogr-grand-residences-by-marriott-lake-tahoe-studios-1-and-2-bedrooms/" target="_blank">
+							    
+						   
+						
+					
+						Grand Residences by Marriott, Lake Tahoe - studios, 1 &amp; 2 bedrooms
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					South Lake Tahoe-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/rnoph-grand-residences-by-marriott-tahoe-1-to-3-bedrooms-and-pent/" target="_blank">
+							    
+						   
+						
+					
+						Grand Residences by Marriott, Tahoe - 1 to 3 bedrooms &amp; Pent.
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Colorado
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Boulder-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/denbo-boulder-marriott/" target="_blank">
+							    
+						   
+						
+					
+						Boulder Marriott
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Breckenridge-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/qkbvi-marriotts-mountain-valley-lodge-at-breckenridge/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Mountain Valley Lodge at Breckenridge
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Denver-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/denjw-jw-marriott-denver-cherry-creek/" target="_blank">
+							    
+						   
+						
+					
+						JW Marriott Denver Cherry Creek
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						District Of Columbia
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Washington-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/wasjw-jw-marriott-washington-dc/" target="_blank">
+							    
+						   
+						
+					
+						JW Marriott Washington, DC
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Florida
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Aventura-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/miatb-turnberry-isle-miami-autograph-collection/" target="_blank">
+							    
+						   
+						
+					
+						Turnberry Isle Miami, Autograph Collection®
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Clearwater Beach-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/tpams-clearwater-beach-marriott-suites-on-sand-key/" target="_blank">
+							    
+						   
+						
+					
+						Clearwater Beach Marriott Suites on Sand Key
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Delray Beach-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/pbidr-delray-beach-marriott/" target="_blank">
+							    
+						   
+						
+					
+						Delray Beach Marriott
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Fort Lauderdale-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/fllbp-marriotts-beachplace-towers/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's BeachPlace Towers
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Fort Lauderdale-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/fllsb-fort-lauderdale-marriott-harbor-beach-resort-and-spa/" target="_blank">
+							    
+						   
+						
+					
+						Fort Lauderdale Marriott Harbor Beach Resort &amp; Spa
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Key Largo-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mthkl-key-largo-bay-marriott-beach-resort/" target="_blank">
+							    
+						   
+						
+					
+						Key Largo Bay Marriott Beach Resort
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Key West-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/eywcy-courtyard-key-west-waterfront/" target="_blank">
+							    
+						   
+						
+					
+						Courtyard Key West Waterfront
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Key West-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/eywfi-fairfield-inn-and-suites-key-west/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites Key West
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Miami Beach-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/miaak-winter-haven-autograph-collection/" target="_blank">
+							    
+						   
+						
+					
+						Winter Haven, Autograph Collection®
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Miami Beach-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/miabm-blue-moon-hotel-autograph-collection/" target="_blank">
+							    
+						   
+						
+					
+						Blue Moon Hotel, Autograph Collection®
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Orlando-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mcocy-marriotts-cypress-harbour/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Cypress Harbour
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Orlando-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mcogv-marriotts-grande-vista/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Grande Vista
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Orlando-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mcoho-marriotts-harbour-lake/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Harbour Lake
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Orlando-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mcoip-marriotts-imperial-palms-villas/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Imperial Palms Villas
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Orlando-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mcojw-jw-marriott-orlando-grande-lakes/" target="_blank">
+							    
+						   
+						
+					
+						JW Marriott Orlando Grande Lakes
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Orlando-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mcolr-marriotts-lakeshore-reserve/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Lakeshore Reserve
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Orlando-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mcorp-marriotts-royal-palms/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Royal Palms
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Orlando-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mcosp-marriotts-sabal-palms/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Sabal Palms
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Palm Beach Shores-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/pbips-marriotts-ocean-pointe/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Ocean Pointe
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Pompano Beach-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/fllpm-fort-lauderdale-marriott-pompano-beach-resort-and-spa/" target="_blank">
+							    
+						   
+						
+					
+						Fort Lauderdale Marriott Pompano Beach Resort &amp; Spa
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Riviera Beach-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/pbisn-marriotts-oceana-palms/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Oceana Palms
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					St. Augustine-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/jaxak-casa-monica-autograph-collection/" target="_blank">
+							    
+						   
+						
+					
+						Casa Monica, Autograph Collection®
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Treasure Island-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/tpati-residence-inn-st-petersburg-treasure-island/" target="_blank">
+							    
+						   
+						
+					
+						Residence Inn St. Petersburg Treasure Island
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Georgia
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Savannah-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/savad-mansion-on-forsyth-park-autograph-collection/" target="_blank">
+							    
+						   
+						
+					
+						Mansion on Forsyth Park, Autograph Collection®
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Hawaii
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Honolulu-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/hnlmc-waikiki-beach-marriott-resort-and-spa/" target="_blank">
+							    
+						   
+						
+					
+						Waikiki Beach Marriott Resort &amp; Spa
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Koloa - Kauai-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/lihwi-marriotts-waiohai-beach-club/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Waiohai Beach Club
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Lahaina - Maui-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/hnmmu-marriotts-maui-ocean-club-lahaina-and-napili-towers/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Maui Ocean Club  - Lahaina &amp; Napili Towers
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Lihue - Kauai-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/lihhi-kauai-marriott-resort/" target="_blank">
+							    
+						   
+						
+					
+						Kaua'i Marriott Resort
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Lihue - Kauai-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/lihka-marriotts-kauai-beach-club/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Kaua'i Beach Club
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Lihue - Kauai-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/lihkn-marriotts-kauai-lagoons-kalanipuu/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Kauai Lagoons - Kalanipu'u
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Illinois
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Chicago-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/chiax-hotel-chicago-downtown-autograph-collection/" target="_blank">
+							    
+						   
+						
+					
+						Hotel Chicago Downtown, Autograph Collection®
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Chicago-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/chidt-chicago-marriott-downtown-magnificent-mile/" target="_blank">
+							    
+						   
+						
+					
+						Chicago Marriott Downtown Magnificent Mile
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Chicago-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/chisr-renaissance-chicago-downtown-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Renaissance Chicago Downtown Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Louisiana
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					New Orleans-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/msyjw-jw-marriott-new-orleans/" target="_blank">
+							    
+						   
+						
+					
+						JW Marriott New Orleans
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Massachusetts
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Boston-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/bosdt-courtyard-boston-copley-square/" target="_blank">
+							    
+						   
+						
+					
+						Courtyard Boston Copley Square
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Boston-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/boswf-renaissance-boston-waterfront-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Renaissance Boston Waterfront Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Foxborough-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/bospp-renaissance-boston-patriot-place-hotel-and-spa/" target="_blank">
+							    
+						   
+						
+					
+						Renaissance Boston Patriot Place Hotel &amp; Spa
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Nevada
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Las Vegas-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/lasvg-marriotts-grand-chateau/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Grand Chateau
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						New York
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Brooklyn-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/nycbk-new-york-marriott-at-the-brooklyn-bridge/" target="_blank">
+							    
+						   
+						
+					
+						New York Marriott at the Brooklyn Bridge
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					New York-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/nycce-courtyard-new-york-manhattan-chelsea/" target="_blank">
+							    
+						   
+						
+					
+						Courtyard New York Manhattan/Chelsea
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					New York-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/nycfm-fairfield-inn-and-suites-new-york-manhattan-downtown/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites New York Manhattan/Downtown
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					New York-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/nycha-residence-inn-new-york-manhattan-midtown-east/" target="_blank">
+							    
+						   
+						
+					
+						Residence Inn New York Manhattan/Midtown East
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					New York-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/nycme-courtyard-new-york-manhattan-midtown-east/" target="_blank">
+							    
+						   
+						
+					
+						Courtyard New York Manhattan/Midtown East
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					New York-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/nycmt-courtyard-new-york-manhattan-soho/" target="_blank">
+							    
+						   
+						
+					
+						Courtyard New York Manhattan/SoHo
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					New York-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/nycps-fairfield-inn-and-suites-new-york-midtown-manhattan-penn-station/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites New York Midtown Manhattan/Penn Station
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					New York-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/nyctw-fairfield-inn-and-suites-new-york-manhattan-chelsea/" target="_blank">
+							    
+						   
+						
+					
+						Fairfield Inn &amp; Suites New York Manhattan/Chelsea
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					New York-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/nycws-new-york-marriott-downtown/" target="_blank">
+							    
+						   
+						
+					
+						New York Marriott Downtown
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						South Carolina
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Charleston-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/chsbr-renaissance-charleston-historic-district-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Renaissance Charleston Historic District Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Myrtle Beach-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/myrgd-myrtle-beach-marriott-resort-and-spa-at-grande-dunes/" target="_blank">
+							    
+						   
+						
+					
+						Myrtle Beach Marriott Resort &amp; Spa at Grande Dunes
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Myrtle Beach-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/myrow-marriotts-oceanwatch-villas-at-grande-dunes/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's OceanWatch Villas at Grande Dunes
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Tennessee
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Nashville-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/bnash-renaissance-nashville-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Renaissance Nashville Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Texas
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					San Antonio-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/satjw-jw-marriott-san-antonio-hill-country-resort-and-spa/" target="_blank">
+							    
+						   
+						
+					
+						JW Marriott San Antonio Hill Country Resort &amp; Spa
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Utah
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Park City-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/slcms-marriotts-mountainside/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's MountainSide
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Park City-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/slcvi-marriotts-summit-watch/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Summit Watch
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Virginia
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Virginia Beach-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/orfoc-courtyard-virginia-beach-oceanfront-south/" target="_blank">
+							    
+						   
+						
+					
+						Courtyard Virginia Beach Oceanfront/South
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Virginia Beach-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/orfof-courtyard-virginia-beach-oceanfront-north-37th-street/" target="_blank">
+							    
+						   
+						
+					
+						Courtyard Virginia Beach Oceanfront/North 37th Street
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Virginia Beach-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/orfvo-springhill-suites-virginia-beach-oceanfront/" target="_blank">
+							    
+						   
+						
+					
+						SpringHill Suites Virginia Beach Oceanfront
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Washington
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Seattle-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/seawf-seattle-marriott-waterfront/" target="_blank">
+							    
+						   
+						
+					
+						Seattle Marriott Waterfront
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Aruba
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Palm Beach-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/auaac-marriotts-aruba-surf-club/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Aruba Surf Club
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Palm Beach-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/auaao-marriotts-aruba-ocean-club/" target="_blank">
+							    
+						   
+						
+					
+						Marriott's Aruba Ocean Club
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Australia
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+				
+				<tr>
+					<td class="bodyCopyBold">
+						New South Wales
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Sydney-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sydak-pier-one-sydney-harbour-autograph-collection/" target="_blank">
+							    
+						   
+						
+					
+						Pier One Sydney Harbour, Autograph Collection®
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Sydney-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sydmc-sydney-harbour-marriott-hotel-at-circular-quay/" target="_blank">
+							    
+						   
+						
+					
+						Sydney Harbour Marriott Hotel at Circular Quay
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Victoria
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Melbourne-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/melmc-melbourne-marriott-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Melbourne Marriott Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Austria
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Vienna-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/vieat-vienna-marriott-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Vienna Marriott Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Canada
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Ontario
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Niagara Falls-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/iagmc-niagara-falls-marriott-gateway-on-the-falls/" target="_blank">
+							    
+						   
+						
+					
+						Niagara Falls Marriott Gateway on the Falls
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Niagara Falls-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/iagnf-niagara-falls-marriott-fallsview-hotel-and-spa/" target="_blank">
+							    
+						   
+						
+					
+						Niagara Falls Marriott Fallsview Hotel &amp; Spa
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Quebec
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Mont-Tremblant-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/ymymt-residence-inn-mont-tremblant-manoir-labelle/" target="_blank">
+							    
+						   
+						
+					
+						Residence Inn Mont Tremblant Manoir Labelle
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							China
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Hong Kong-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/hkghv-renaissance-hong-kong-harbour-view-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Renaissance Hong Kong Harbour View Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Costa Rica
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Herradura-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sjols-los-suenos-marriott-ocean-and-golf-resort/" target="_blank">
+							    
+						   
+						
+					
+						Los Suenos Marriott Ocean &amp; Golf Resort
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Denmark
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Copenhagen-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/cphdk-copenhagen-marriott-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Copenhagen Marriott Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							France
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Cap d'Ail-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mcmcd-riviera-marriott-hotel-la-porte-de-monaco/" target="_blank">
+							    
+						   
+						
+					
+						Riviera Marriott Hotel La Porte de Monaco
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Nice-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/nceac-ac-hotel-nice/" target="_blank">
+							    
+						   
+						
+					
+						AC Hotel Nice
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Paris-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/parst-paris-marriott-rive-gauche-hotel-and-conference-center/" target="_blank">
+							    
+						   
+						
+					
+						Paris Marriott Rive Gauche Hotel &amp; Conference Center
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Ireland
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Dublin-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dubbr-the-shelbourne-dublin-a-renaissance-hotel/" target="_blank">
+							    
+						   
+						
+					
+						The Shelbourne Dublin, A Renaissance Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Enniskerry, County Wicklow-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/dubak-powerscourt-hotel-autograph-collection/" target="_blank">
+							    
+						   
+						
+					
+						Powerscourt Hotel, Autograph Collection®
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Italy
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Venice-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/vceak-boscolo-venezia-autograph-collection/" target="_blank">
+							    
+						   
+						
+					
+						Boscolo Venezia, Autograph Collection®
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Japan
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Osaka-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/osamc-osaka-marriott-miyako-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Osaka Marriott Miyako Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Tokyo-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/tyoak-the-prince-sakura-tower-tokyo-autograph-collection/" target="_blank">
+							    
+						   
+						
+					
+						The Prince Sakura Tower Tokyo, Autograph Collection®
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Tokyo-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/tyomc-tokyo-marriott-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Tokyo Marriott Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Mexico
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Quintana Roo
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Cancun-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/cunjw-jw-marriott-cancun-resort-and-spa/" target="_blank">
+							    
+						   
+						
+					
+						JW Marriott Cancun Resort &amp; Spa
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Netherlands
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Amsterdam-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/amsnt-amsterdam-marriott-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Amsterdam Marriott Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Amsterdam-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/amsrd-renaissance-amsterdam-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Renaissance Amsterdam Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Puerto Rico
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					San Juan-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sjubr-la-concha-renaissance-san-juan-resort/" target="_blank">
+							    
+						   
+						
+					
+						La Concha Renaissance San Juan Resort
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					San Juan-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sjupr-san-juan-marriott-resort-and-stellaris-casino/" target="_blank">
+							    
+						   
+						
+					
+						San Juan Marriott Resort &amp; Stellaris Casino
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Russian Federation
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Moscow-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/mowdt-moscow-marriott-royal-aurora-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Moscow Marriott Royal Aurora Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Singapore
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Singapore-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/sindt-singapore-marriott-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Singapore Marriott Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Spain
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Barcelona
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Barcelona-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/bcndm-renaissance-barcelona-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Renaissance Barcelona Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Switzerland
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Lucerne-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/emlbr-renaissance-lucerne-hotel/" target="_blank">
+							    
+						   
+						
+					
+						Renaissance Lucerne Hotel
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							Turkey
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Istanbul-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/isteb-the-istanbul-edition/" target="_blank">
+							    
+						   
+						
+					
+						The Istanbul EDITION
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+				
+				
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+					<tr>
+						<td align="right">
+							<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+							<a href="#topOfPage" class="bodyCopy">
+								Back to top
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+					</tr>
+				
+				<tr class="formLightBlue">
+					<td width="100%" class="subHead">
+						<div style="padding-left:5px;padding-top:4px;padding-bottom:2px;">
+							United Kingdom
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td>
+				</tr>
+				
+			
+			
+				
+				<tr>
+					<td class="bodyCopyBold">
+						England
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					London-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/lonlm-london-marriott-hotel-kensington/" target="_blank">
+							    
+						   
+						
+					
+						London Marriott Hotel Kensington
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					London-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/lonrp-london-marriott-hotel-regents-park/" target="_blank">
+							    
+						   
+						
+					
+						London Marriott Hotel Regents Park
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+			
+			
+			
+				
+					<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="5" border="0"></td></tr>
+				
+				<tr>
+					<td class="bodyCopyBold">
+						Scotland
+					</td>
+				</tr>
+				
+			
+			<tr>
+				<td class="bodyCopy">
+					
+					Edinburgh-
+					
+						
+						
+							
+						    
+							    
+							    
+							   	    <a class="sendto-link" href="/hotels/rewards-points/ediak-the-glasshouse-autograph-collection/" target="_blank">
+							    
+						   
+						
+					
+						The Glasshouse, Autograph Collection®
+					</a>
+				</td>
+			</tr>
+			<tr><td><img src="http://cache.marriott.com/Images/spacer.gif"></td></tr>
+		
+		<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td></tr>
+		<tr><td width="100%" height="1"><div style="border-bottom:1px dashed #666666;"></div></td></tr>
+		<tr><td><img src="http://cache.marriott.com/Images/spacer.gif" width="1" height="10" border="0"></td></tr>
+		<tr>
+			<td width="100%" align="right">
+				<img src="http://cache.marriott.com/Images/Arrows/blue_up.gif" alt="">&nbsp;
+				<a href="#topOfPage" class="bodyCopy">
+					Back to top
+				</a>
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+</div>
+   </td>
+   </tr>
+
+   <tr valign="top">
+    <td align="left">
+    
+
+<a href="#" onclick="javascript:window.close()" class="hws-category-close">Close window</a>
+
+
+    </td>
+   </tr>
+  </tbody></table>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+<input type="hidden" id="omniSiteTrackingOn" value="true">
+
+	
+	
+	<input type="hidden" id="moduleTrackingOn" value="true">
+	
+	
+  	
+	<input type="hidden" id="siteTrackingReportSuite" value="prod">
+	<input type="hidden" id="omniSiteLocale" value="US">
+	<input type="hidden" id="omniglobalSiteLanguage" value="en">
+	<input type="hidden" id="isReservationSite" value="true">
+	 
+	 
+	
+	<script type="text/javascript" src="/miJSPath/N945123113/bundles/sitecatalystlib.js"></script>
+
+	
+ 	
+  	     
+  	                                         
+  	
+	
+	
+	
+	
+	
+
+	
+	
+    
+	
+	
+	
+		
+		
+	
+	<input type="hidden" id="omniRememAuthen" value="false">
+	
+	
+	
+	
+	
+	
+	
+	
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<input type="hidden" id="omniEvars" value="0=,41=US">
+	<input type="hidden" id="omniProps" value="0=,5=US">
+	<input type="hidden" id="omniEvents" value="">
+	<input type="hidden" id="iata" value="">	
+	<input type="hidden" value="0" id="ctc-search-count">	
+	
+	
+		
+		
+			
+			
+			
+		
+	
+	
+    
+    
+     
+   
+   <input type="hidden" id="personalizedOmniParamList" value="">   
+   
+   <script type="text/javascript" src="/miJSPath/1943152305/common/js/OmnitureTrackingJS/omniTrackRun.js"></script>
+
+   
+
+  
+	
+	
+	   	
+
+
+
+ 
+
+
+
+
+
+
+
+	
+	
+	
+	
+	   	
+
+
+
+
+
+
+
+
+
+
+
+	
+	<script type="text/javascript" src="/miJSPath/948180467/bundles/mi_customer_survey.js"></script>
+
+
+	
+	
+ 
+
+</body>
