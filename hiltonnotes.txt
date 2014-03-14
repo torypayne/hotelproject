@@ -1,10 +1,12 @@
 http://hhonors.hilton.com/en/hhonors/rewards/search_result_reward_levels.jhtml?%2Fcom%2Fhilton%2Fhotel%2FHotelSearchForm.city=&_D%3A%2Fcom%2Fhilton%2Fhotel%2FHotelSearchForm.city=+&%2Fcom%2Fhilton%2Fhotel%2FHotelSearchForm.state=&_D%3A%2Fcom%2Fhilton%2Fhotel%2FHotelSearchForm.state=+&country=&%2Fcom%2Fhilton%2Fhotel%2FHotelSearchForm.country=&_D%3A%2Fcom%2Fhilton%2Fhotel%2FHotelSearchForm.country=+&pageNum=
-0
-&sortOrder=&useVicinity=no&
-hhonorsRewardLevel=1
-
-&hhonorsRewardCategory=1&_DARGS=%2Fen%2Fhotels%2Fsearch%2Fresults_body_hhonors_reward_levels.jhtml
+15&sortOrder=&useVicinity=no&hhonorsRewardLevel=8&hhonorsRewardCategory=1&_DARGS=%2Fen%2Fhotels%2Fsearch%2Fresults_body_hhonors_reward_levels.jhtml
 
 
 <span style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FFFFFF;">&nbsp;You searched for 
 							1915 hotels found.</span>
+
+
+requests.post(urlname, data="fieldname=searchthing")
+
+
+Post to that url http://hhonors3.hilton.com/en_US/hh/search/findhotels/results.htm?view=LIST ?

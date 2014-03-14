@@ -1,0 +1,8 @@
+CREATE TABLE ratetesting
+(
+HoteliestID int,
+Hotelnamesies varchar(255),
+HighestPossRate float,
+LowestPossRate float,
+RegCitCode int
+);
