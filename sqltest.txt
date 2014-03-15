@@ -6,3 +6,302 @@ HighestPossRate float,
 LowestPossRate float,
 RegCitCode int
 );
+
+
+mysql> show tables;
++-----------------------+
+| Tables_in_hotelchains |
++-----------------------+
+| EANHotelList          |
+| HotelChains           |
+| ratetesting           |
++-----------------------+
+3 rows in set (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> desc ratetesting;
++-----------------+--------------+------+-----+---------+-------+
+| Field           | Type         | Null | Key | Default | Extra |
++-----------------+--------------+------+-----+---------+-------+
+| HoteliestID     | int(11)      | YES  |     | NULL    |       |
+| Hotelnamesies   | varchar(255) | YES  |     | NULL    |       |
+| HighestPossRate | float        | YES  |     | NULL    |       |
+| LowestPossRate  | float        | YES  |     | NULL    |       |
+| RegCitCode      | int(11)      | YES  |     | NULL    |       |
++-----------------+--------------+------+-----+---------+-------+
+5 rows in set (0.01 sec)
+
+mysql> 
+mysql> select * from ratetesting;
++-------------+---------------+-----------------+----------------+------------+
+| HoteliestID | Hotelnamesies | HighestPossRate | LowestPossRate | RegCitCode |
++-------------+---------------+-----------------+----------------+------------+
+|          16 | Hotel 16      |             222 |            133 |          1 |
+|           0 | Hotel 0       |             248 |            166 |          3 |
+|           1 | Hotel 1       |             227 |            162 |          3 |
+|           2 | Hotel 2       |             228 |            105 |          2 |
+|           3 | Hotel 3       |             225 |            125 |          2 |
+|           4 | Hotel 4       |             215 |            131 |          3 |
+|           5 | Hotel 5       |             227 |            132 |          3 |
+|           6 | Hotel 6       |             236 |            117 |          3 |
+|           7 | Hotel 7       |             206 |            134 |          1 |
+|           8 | Hotel 8       |             246 |            119 |          2 |
+|           9 | Hotel 9       |             220 |            111 |          3 |
+|          10 | Hotel 10      |             202 |            156 |          2 |
+|          11 | Hotel 11      |             218 |            133 |          2 |
+|          12 | Hotel 12      |             246 |            170 |          2 |
+|          13 | Hotel 13      |             214 |            142 |          3 |
+|          14 | Hotel 14      |             227 |            125 |          3 |
+|          15 | Hotel 15      |             231 |            121 |          1 |
++-------------+---------------+-----------------+----------------+------------+
+17 rows in set (0.00 sec)
+
+mysql> 
+mysql> SELECT *, (HighestPossRate+LowestPossRate)/2 FROM ratetesting;
++-------------+---------------+-----------------+----------------+------------+------------------------------------+
+| HoteliestID | Hotelnamesies | HighestPossRate | LowestPossRate | RegCitCode | (HighestPossRate+LowestPossRate)/2 |
++-------------+---------------+-----------------+----------------+------------+------------------------------------+
+|          16 | Hotel 16      |             222 |            133 |          1 |                              177.5 |
+|           0 | Hotel 0       |             248 |            166 |          3 |                                207 |
+|           1 | Hotel 1       |             227 |            162 |          3 |                              194.5 |
+|           2 | Hotel 2       |             228 |            105 |          2 |                              166.5 |
+|           3 | Hotel 3       |             225 |            125 |          2 |                                175 |
+|           4 | Hotel 4       |             215 |            131 |          3 |                                173 |
+|           5 | Hotel 5       |             227 |            132 |          3 |                              179.5 |
+|           6 | Hotel 6       |             236 |            117 |          3 |                              176.5 |
+|           7 | Hotel 7       |             206 |            134 |          1 |                                170 |
+|           8 | Hotel 8       |             246 |            119 |          2 |                              182.5 |
+|           9 | Hotel 9       |             220 |            111 |          3 |                              165.5 |
+|          10 | Hotel 10      |             202 |            156 |          2 |                                179 |
+|          11 | Hotel 11      |             218 |            133 |          2 |                              175.5 |
+|          12 | Hotel 12      |             246 |            170 |          2 |                                208 |
+|          13 | Hotel 13      |             214 |            142 |          3 |                                178 |
+|          14 | Hotel 14      |             227 |            125 |          3 |                                176 |
+|          15 | Hotel 15      |             231 |            121 |          1 |                                176 |
++-------------+---------------+-----------------+----------------+------------+------------------------------------+
+17 rows in set (0.00 sec)
+
+mysql> SELECT RegCitCode, (HighestPossRate+LowestPossRate)/2 FROM() FROM ratetesting GROUP BY RegCitCode;
+ERROR 1146 (42S02): Table 'hotelchains.ratetestingtesting' doesn't exist
+mysql> SELECT RegCitCode, (HighestPossRate+LowestPossRate)/2 FROM ratetesting GROUP BY RegCitCode;
++------------+------------------------------------+
+| RegCitCode | (HighestPossRate+LowestPossRate)/2 |
++------------+------------------------------------+
+|          1 |                              177.5 |
+|          2 |                              166.5 |
+|          3 |                                207 |
++------------+------------------------------------+
+3 rows in set (0.01 sec)
+
+mysql> SELECT RegCitCode, avg((HighestPossRate+LowestPossRate)/2) FROM ratetesting GROUP BY RegCitCode;
++------------+-----------------------------------------+
+| RegCitCode | avg((HighestPossRate+LowestPossRate)/2) |
++------------+-----------------------------------------+
+|          1 |                                   174.5 |
+|          2 |                      181.08333333333334 |
+|          3 |                                  181.25 |
++------------+-----------------------------------------+
+3 rows in set (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> CREATE TABLE regcodeavg (SELECT RegCitCode, avg((HighestPossRate+LowestPossRate)/2) FROM ratetesting GROUP BY RegCitCode);
+Query OK, 3 rows affected (0.15 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> 
+mysql> 
+mysql> select * from regcodeavg;
++------------+-----------------------------------------+
+| RegCitCode | avg((HighestPossRate+LowestPossRate)/2) |
++------------+-----------------------------------------+
+|          1 |                                   174.5 |
+|          2 |                      181.08333333333334 |
+|          3 |                                  181.25 |
++------------+-----------------------------------------+
+3 rows in set (0.01 sec)
+
+mysql> desc regcodeavg;
++-----------------------------------------+---------+------+-----+---------+-------+
+| Field                                   | Type    | Null | Key | Default | Extra |
++-----------------------------------------+---------+------+-----+---------+-------+
+| RegCitCode                              | int(11) | YES  |     | NULL    |       |
+| avg((HighestPossRate+LowestPossRate)/2) | double  | YES  |     | NULL    |       |
++-----------------------------------------+---------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+mysql> show tables;
++-----------------------+
+| Tables_in_hotelchains |
++-----------------------+
+| EANHotelList          |
+| HotelChains           |
+| ratetesting           |
+| regcodeavg            |
++-----------------------+
+4 rows in set (0.00 sec)
+
+mysql> 
+mysql> select * from ratetesting;
++-------------+---------------+-----------------+----------------+------------+
+| HoteliestID | Hotelnamesies | HighestPossRate | LowestPossRate | RegCitCode |
++-------------+---------------+-----------------+----------------+------------+
+|          16 | Hotel 16      |             222 |            133 |          1 |
+|           0 | Hotel 0       |             248 |            166 |          3 |
+|           1 | Hotel 1       |             227 |            162 |          3 |
+|           2 | Hotel 2       |             228 |            105 |          2 |
+|           3 | Hotel 3       |             225 |            125 |          2 |
+|           4 | Hotel 4       |             215 |            131 |          3 |
+|           5 | Hotel 5       |             227 |            132 |          3 |
+|           6 | Hotel 6       |             236 |            117 |          3 |
+|           7 | Hotel 7       |             206 |            134 |          1 |
+|           8 | Hotel 8       |             246 |            119 |          2 |
+|           9 | Hotel 9       |             220 |            111 |          3 |
+|          10 | Hotel 10      |             202 |            156 |          2 |
+|          11 | Hotel 11      |             218 |            133 |          2 |
+|          12 | Hotel 12      |             246 |            170 |          2 |
+|          13 | Hotel 13      |             214 |            142 |          3 |
+|          14 | Hotel 14      |             227 |            125 |          3 |
+|          15 | Hotel 15      |             231 |            121 |          1 |
++-------------+---------------+-----------------+----------------+------------+
+17 rows in set (0.00 sec)
+
+mysql> desc ratetesting;
++-----------------+--------------+------+-----+---------+-------+
+| Field           | Type         | Null | Key | Default | Extra |
++-----------------+--------------+------+-----+---------+-------+
+| HoteliestID     | int(11)      | YES  |     | NULL    |       |
+| Hotelnamesies   | varchar(255) | YES  |     | NULL    |       |
+| HighestPossRate | float        | YES  |     | NULL    |       |
+| LowestPossRate  | float        | YES  |     | NULL    |       |
+| RegCitCode      | int(11)      | YES  |     | NULL    |       |
++-----------------+--------------+------+-----+---------+-------+
+5 rows in set (0.00 sec)
+
+mysql> alter table ratetesting add column CodeAvg float;
+Query OK, 0 rows affected (0.05 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc ratetesting;
++-----------------+--------------+------+-----+---------+-------+
+| Field           | Type         | Null | Key | Default | Extra |
++-----------------+--------------+------+-----+---------+-------+
+| HoteliestID     | int(11)      | YES  |     | NULL    |       |
+| Hotelnamesies   | varchar(255) | YES  |     | NULL    |       |
+| HighestPossRate | float        | YES  |     | NULL    |       |
+| LowestPossRate  | float        | YES  |     | NULL    |       |
+| RegCitCode      | int(11)      | YES  |     | NULL    |       |
+| CodeAvg         | float        | YES  |     | NULL    |       |
++-----------------+--------------+------+-----+---------+-------+
+6 rows in set (0.01 sec)
+
+mysql> select * from ratetesting;
++-------------+---------------+-----------------+----------------+------------+---------+
+| HoteliestID | Hotelnamesies | HighestPossRate | LowestPossRate | RegCitCode | CodeAvg |
++-------------+---------------+-----------------+----------------+------------+---------+
+|          16 | Hotel 16      |             222 |            133 |          1 |    NULL |
+|           0 | Hotel 0       |             248 |            166 |          3 |    NULL |
+|           1 | Hotel 1       |             227 |            162 |          3 |    NULL |
+|           2 | Hotel 2       |             228 |            105 |          2 |    NULL |
+|           3 | Hotel 3       |             225 |            125 |          2 |    NULL |
+|           4 | Hotel 4       |             215 |            131 |          3 |    NULL |
+|           5 | Hotel 5       |             227 |            132 |          3 |    NULL |
+|           6 | Hotel 6       |             236 |            117 |          3 |    NULL |
+|           7 | Hotel 7       |             206 |            134 |          1 |    NULL |
+|           8 | Hotel 8       |             246 |            119 |          2 |    NULL |
+|           9 | Hotel 9       |             220 |            111 |          3 |    NULL |
+|          10 | Hotel 10      |             202 |            156 |          2 |    NULL |
+|          11 | Hotel 11      |             218 |            133 |          2 |    NULL |
+|          12 | Hotel 12      |             246 |            170 |          2 |    NULL |
+|          13 | Hotel 13      |             214 |            142 |          3 |    NULL |
+|          14 | Hotel 14      |             227 |            125 |          3 |    NULL |
+|          15 | Hotel 15      |             231 |            121 |          1 |    NULL |
++-------------+---------------+-----------------+----------------+------------+---------+
+17 rows in set (0.01 sec)
+
+mysql> 
+mysql> 
+mysql> 
+mysql> show tables;
++-----------------------+
+| Tables_in_hotelchains |
++-----------------------+
+| EANHotelList          |
+| HotelChains           |
+| ratetesting           |
+| regcodeavg            |
++-----------------------+
+4 rows in set (0.00 sec)
+
+mysql> drop table regcodeavg;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> 
+mysql> CREATE TABLE regcodeavg (SELECT RegCitCode, avg((HighestPossRate+LowestPossRate)/2) AS avgrate FROM ratetesting GROUP BY RegCitCode);
+Query OK, 3 rows affected (0.02 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> 
+mysql> 
+mysql> select * from ratetesting;
++-------------+---------------+-----------------+----------------+------------+---------+
+| HoteliestID | Hotelnamesies | HighestPossRate | LowestPossRate | RegCitCode | CodeAvg |
++-------------+---------------+-----------------+----------------+------------+---------+
+|          16 | Hotel 16      |             222 |            133 |          1 |    NULL |
+|           0 | Hotel 0       |             248 |            166 |          3 |    NULL |
+|           1 | Hotel 1       |             227 |            162 |          3 |    NULL |
+|           2 | Hotel 2       |             228 |            105 |          2 |    NULL |
+|           3 | Hotel 3       |             225 |            125 |          2 |    NULL |
+|           4 | Hotel 4       |             215 |            131 |          3 |    NULL |
+|           5 | Hotel 5       |             227 |            132 |          3 |    NULL |
+|           6 | Hotel 6       |             236 |            117 |          3 |    NULL |
+|           7 | Hotel 7       |             206 |            134 |          1 |    NULL |
+|           8 | Hotel 8       |             246 |            119 |          2 |    NULL |
+|           9 | Hotel 9       |             220 |            111 |          3 |    NULL |
+|          10 | Hotel 10      |             202 |            156 |          2 |    NULL |
+|          11 | Hotel 11      |             218 |            133 |          2 |    NULL |
+|          12 | Hotel 12      |             246 |            170 |          2 |    NULL |
+|          13 | Hotel 13      |             214 |            142 |          3 |    NULL |
+|          14 | Hotel 14      |             227 |            125 |          3 |    NULL |
+|          15 | Hotel 15      |             231 |            121 |          1 |    NULL |
++-------------+---------------+-----------------+----------------+------------+---------+
+17 rows in set (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> UPDATE ratetesting R SET CodeAvg = (SELECT avgrate FROM regcodeavg A WHERE R.RegCitCode = A.RegCitCode);
+Query OK, 17 rows affected (0.01 sec)
+Rows matched: 17  Changed: 17  Warnings: 0
+
+mysql> 
+mysql> select * from ratetesting;
++-------------+---------------+-----------------+----------------+------------+---------+
+| HoteliestID | Hotelnamesies | HighestPossRate | LowestPossRate | RegCitCode | CodeAvg |
++-------------+---------------+-----------------+----------------+------------+---------+
+|          16 | Hotel 16      |             222 |            133 |          1 |   174.5 |
+|           0 | Hotel 0       |             248 |            166 |          3 |  181.25 |
+|           1 | Hotel 1       |             227 |            162 |          3 |  181.25 |
+|           2 | Hotel 2       |             228 |            105 |          2 | 181.083 |
+|           3 | Hotel 3       |             225 |            125 |          2 | 181.083 |
+|           4 | Hotel 4       |             215 |            131 |          3 |  181.25 |
+|           5 | Hotel 5       |             227 |            132 |          3 |  181.25 |
+|           6 | Hotel 6       |             236 |            117 |          3 |  181.25 |
+|           7 | Hotel 7       |             206 |            134 |          1 |   174.5 |
+|           8 | Hotel 8       |             246 |            119 |          2 | 181.083 |
+|           9 | Hotel 9       |             220 |            111 |          3 |  181.25 |
+|          10 | Hotel 10      |             202 |            156 |          2 | 181.083 |
+|          11 | Hotel 11      |             218 |            133 |          2 | 181.083 |
+|          12 | Hotel 12      |             246 |            170 |          2 | 181.083 |
+|          13 | Hotel 13      |             214 |            142 |          3 |  181.25 |
+|          14 | Hotel 14      |             227 |            125 |          3 |  181.25 |
+|          15 | Hotel 15      |             231 |            121 |          1 |   174.5 |
++-------------+---------------+-----------------+----------------+------------+---------+
+17 rows in set (0.00 sec)
+
+mysql> history
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'history' at line 1
+mysql> 
