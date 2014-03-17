@@ -29,7 +29,6 @@ for i in range(1,11):
 					if hotel_name:	
 						hotel = hotel_name.encode('latin-1')
 						hotel = hotel.replace("&amp;", "&")
-						print hotel
 						Hotel_dictionary[hotel] = {}
 						Hotel_dictionary[hotel]["link"] = "http://hhonors3.hilton.com/en/index.html"
 				 		Hotel_dictionary[hotel]["loyalty"] = "Hilton"
