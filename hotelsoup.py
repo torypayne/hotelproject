@@ -17,7 +17,7 @@ for i in range(1,8):
 		for a in links:
 			# print a.contents[0]
 			try:
-				hotel = a.contents[0].encode('latin-1')
+				hotel = a.contents[0]
 				Hotel_dictionary[hotel] = {}
 				Hotel_dictionary[hotel]["link"] = a["href"]
 				Hotel_dictionary[hotel]["loyalty"] = "Hyatt"
@@ -39,7 +39,7 @@ for i in range(1,8):
 				print "Add manually "+a.contents[0]
 
 Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"] = {}
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["link"] = a["http://www.jeddah.park.hyatt.com/en/hotel/home.html"]
+Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["link"] = "http://www.jeddah.park.hyatt.com/en/hotel/home.html"
 Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["loyalty"] = "Hyatt"
 Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["category"] = 5
 Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["points"] = 20000
@@ -83,7 +83,7 @@ for i in range(1,8):
 		for a in links:
 			# print a.contents[0]
 			try:
-				hotel = a.contents[0].encode('latin-1')
+				hotel = a.contents[0]
 				Hotel_dictionary[hotel] = {}
 				jslink = a["href"]
 				jslink = re.search("location.href='(.*)'; }", jslink)
@@ -115,7 +115,7 @@ for i in range(1,8):
 			except:
 				print "Add manually "+a.contents[0]
 
-hotel = "Aloft Chennai OMR – IT Expressway"
+hotel = "Aloft Chennai OMR - IT Expressway"
 Hotel_dictionary[hotel] = {}
 Hotel_dictionary[hotel]["link"] = "http://www.starwoodhotels.com/alofthotels/property/overview/index.html?propertyID=3276"
 Hotel_dictionary[hotel]["loyalty"] = "Starwood"
@@ -135,7 +135,7 @@ Hotel_dictionary[hotel]["pointsaverdates"] = False
 Hotel_dictionary[hotel]["pointsaverrate"] = 3000
 print "added manually "+hotel
 
-hotel = "Aloft Oklahoma City Downtown – Bricktown"
+hotel = "Aloft Oklahoma City Downtown - Bricktown"
 Hotel_dictionary[hotel] = {}
 Hotel_dictionary[hotel]["link"] = "http://www.starwoodhotels.com/alofthotels/property/overview/index.html?propertyID=3623"
 Hotel_dictionary[hotel]["loyalty"] = "Starwood"
@@ -168,7 +168,7 @@ for i in range(1,15):
 	soup = BeautifulSoup(data)
 	all_links = soup.findAll("a", attrs={"class": "sendto-link"})
 	for a in all_links:
-		hotel = a.contents[0].encode('latin-1')
+		hotel = a.contents[0]
 		hotel = hotel.strip()
 		Hotel_dictionary[hotel] = {}
 		Hotel_dictionary[hotel]["link"] = "marriott.com"+a["href"]
@@ -231,7 +231,7 @@ for i in range(1,11):
 						Hotel_dictionary[hotel]["weekendpointrate"] = point_list[i]
 						Hotel_dictionary[hotel]["pointsaverapplies"] = False
 						Hotel_dictionary[hotel]["pointsaverdates"] = False
-						Hotel_dictionary[hotel]["pointsaverrate"] = point_list[i]
+# 						Hotel_dictionary[hotel]["pointsaverrate"] = point_list[i]
 
 			except:
 				pass
