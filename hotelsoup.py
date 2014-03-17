@@ -38,23 +38,23 @@ for i in range(1,8):
 			except:
 				print "Add manually "+a.contents[0]
 
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"] = {}
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["link"] = "http://www.jeddah.park.hyatt.com/en/hotel/home.html"
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["loyalty"] = "Hyatt"
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["category"] = 5
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["points"] = 20000
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["fifthfree"] = False
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["cashandpoints"] = False
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["cashofcandp"] = None
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["pointsofcandp"] = None
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["highseasonapplies"] = False
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["highseasonrate"] = 20000
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["highseasondates"] = None
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["pointsaverapplies"] = False
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["pointsaverdates"] = False
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["pointsaverrate"] = point_list[i]
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"] = {}
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["link"] = "http://www.jeddah.park.hyatt.com/en/hotel/home.html"
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["loyalty"] = "Hyatt"
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["category"] = 5
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["points"] = 20000
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["fifthfree"] = False
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["cashandpoints"] = False
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["cashofcandp"] = None
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["pointsofcandp"] = None
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["highseasonapplies"] = False
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["highseasonrate"] = 20000
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["highseasondates"] = None
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["pointsaverapplies"] = False
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["pointsaverdates"] = False
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["pointsaverrate"] = point_list[i]
 
-print "Added manually Park Hyatt Jeddah - Marina, Club and Spa"
+# print "Added manually Park Hyatt Jeddah - Marina, Club and Spa"
 
 
 print "Hyatt is done"
@@ -115,45 +115,45 @@ for i in range(1,8):
 			except:
 				print "Add manually "+a.contents[0]
 
-hotel = "Aloft Chennai OMR - IT Expressway"
-Hotel_dictionary[hotel] = {}
-Hotel_dictionary[hotel]["link"] = "http://www.starwoodhotels.com/alofthotels/property/overview/index.html?propertyID=3276"
-Hotel_dictionary[hotel]["loyalty"] = "Starwood"
-Hotel_dictionary[hotel]["category"] = 1
-Hotel_dictionary[hotel]["points"] = 3000
-Hotel_dictionary[hotel]["fifthfree"] = True
-Hotel_dictionary[hotel]["cashandpoints"] = True
-Hotel_dictionary[hotel]["cashofcandp"] = 30
-Hotel_dictionary[hotel]["pointsofcandp"] = 1500
-Hotel_dictionary[hotel]["highseasonapplies"] = False
-Hotel_dictionary[hotel]["highseasonrate"] = 3000
-Hotel_dictionary[hotel]["highseasondates"] = None
-Hotel_dictionary[hotel]["weekendrateapplies"] = True
-Hotel_dictionary[hotel]["weekendpointrate"] = 2000
-Hotel_dictionary[hotel]["pointsaverapplies"] = False
-Hotel_dictionary[hotel]["pointsaverdates"] = False
-Hotel_dictionary[hotel]["pointsaverrate"] = 3000
-print "added manually "+hotel
+# hotel = "Aloft Chennai OMR - IT Expressway"
+# Hotel_dictionary[hotel] = {}
+# Hotel_dictionary[hotel]["link"] = "http://www.starwoodhotels.com/alofthotels/property/overview/index.html?propertyID=3276"
+# Hotel_dictionary[hotel]["loyalty"] = "Starwood"
+# Hotel_dictionary[hotel]["category"] = 1
+# Hotel_dictionary[hotel]["points"] = 3000
+# Hotel_dictionary[hotel]["fifthfree"] = True
+# Hotel_dictionary[hotel]["cashandpoints"] = True
+# Hotel_dictionary[hotel]["cashofcandp"] = 30
+# Hotel_dictionary[hotel]["pointsofcandp"] = 1500
+# Hotel_dictionary[hotel]["highseasonapplies"] = False
+# Hotel_dictionary[hotel]["highseasonrate"] = 3000
+# Hotel_dictionary[hotel]["highseasondates"] = None
+# Hotel_dictionary[hotel]["weekendrateapplies"] = True
+# Hotel_dictionary[hotel]["weekendpointrate"] = 2000
+# Hotel_dictionary[hotel]["pointsaverapplies"] = False
+# Hotel_dictionary[hotel]["pointsaverdates"] = False
+# Hotel_dictionary[hotel]["pointsaverrate"] = 3000
+# print "added manually "+hotel
 
-hotel = "Aloft Oklahoma City Downtown - Bricktown"
-Hotel_dictionary[hotel] = {}
-Hotel_dictionary[hotel]["link"] = "http://www.starwoodhotels.com/alofthotels/property/overview/index.html?propertyID=3623"
-Hotel_dictionary[hotel]["loyalty"] = "Starwood"
-Hotel_dictionary[hotel]["category"] = 4
-Hotel_dictionary[hotel]["points"] = 10000
-Hotel_dictionary[hotel]["fifthfree"] = True
-Hotel_dictionary[hotel]["cashandpoints"] = True
-Hotel_dictionary[hotel]["cashofcandp"] = 75
-Hotel_dictionary[hotel]["pointsofcandp"] = 5000
-Hotel_dictionary[hotel]["highseasonapplies"] = False
-Hotel_dictionary[hotel]["highseasonrate"] = 10000
-Hotel_dictionary[hotel]["highseasondates"] = None
-Hotel_dictionary[hotel]["weekendrateapplies"] = False
-Hotel_dictionary[hotel]["weekendpointrate"] = 10000
-Hotel_dictionary[hotel]["pointsaverapplies"] = False
-Hotel_dictionary[hotel]["pointsaverdates"] = False
-Hotel_dictionary[hotel]["pointsaverrate"] = 10000
-print "added manually "+hotel
+# hotel = "Aloft Oklahoma City Downtown - Bricktown"
+# Hotel_dictionary[hotel] = {}
+# Hotel_dictionary[hotel]["link"] = "http://www.starwoodhotels.com/alofthotels/property/overview/index.html?propertyID=3623"
+# Hotel_dictionary[hotel]["loyalty"] = "Starwood"
+# Hotel_dictionary[hotel]["category"] = 4
+# Hotel_dictionary[hotel]["points"] = 10000
+# Hotel_dictionary[hotel]["fifthfree"] = True
+# Hotel_dictionary[hotel]["cashandpoints"] = True
+# Hotel_dictionary[hotel]["cashofcandp"] = 75
+# Hotel_dictionary[hotel]["pointsofcandp"] = 5000
+# Hotel_dictionary[hotel]["highseasonapplies"] = False
+# Hotel_dictionary[hotel]["highseasonrate"] = 10000
+# Hotel_dictionary[hotel]["highseasondates"] = None
+# Hotel_dictionary[hotel]["weekendrateapplies"] = False
+# Hotel_dictionary[hotel]["weekendpointrate"] = 10000
+# Hotel_dictionary[hotel]["pointsaverapplies"] = False
+# Hotel_dictionary[hotel]["pointsaverdates"] = False
+# Hotel_dictionary[hotel]["pointsaverrate"] = 10000
+# print "added manually "+hotel
 
 print "Starwood is done"
 
@@ -231,7 +231,7 @@ for i in range(1,11):
 						Hotel_dictionary[hotel]["weekendpointrate"] = point_list[i]
 						Hotel_dictionary[hotel]["pointsaverapplies"] = False
 						Hotel_dictionary[hotel]["pointsaverdates"] = False
-# 						Hotel_dictionary[hotel]["pointsaverrate"] = point_list[i]
+						Hotel_dictionary[hotel]["pointsaverrate"] = point_list[i]
 
 			except:
 				pass
