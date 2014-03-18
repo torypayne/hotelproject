@@ -305,3 +305,100 @@ mysql> history
     -> ;
 ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'history' at line 1
 mysql> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+mysql> use mysql;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> 
+mysql> 
+mysql> select user, host, password from users;
+ERROR 1146 (42S02): Table 'mysql.users' doesn't exist
+mysql> select user, host, password from user;
++------+-----------------------------+----------+
+| user | host                        | password |
++------+-----------------------------+----------+
+| root | localhost                   |          |
+| root | victorias-macbook-pro.local |          |
+| root | 127.0.0.1                   |          |
+| root | ::1                         |          |
+|      | localhost                   |          |
+|      | victorias-macbook-pro.local |          |
++------+-----------------------------+----------+
+6 rows in set (0.01 sec)
+
+mysql> 
+mysql> 
+mysql> CREATE USER 'myproject' IDENTIFIED BY 'mypassword';
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> select user, host, password from user;
++-----------+-----------------------------+-------------------------------------------+
+| user      | host                        | password                                  |
++-----------+-----------------------------+-------------------------------------------+
+| root      | localhost                   |                                           |
+| root      | victorias-macbook-pro.local |                                           |
+| root      | 127.0.0.1                   |                                           |
+| root      | ::1                         |                                           |
+|           | localhost                   |                                           |
+|           | victorias-macbook-pro.local |                                           |
+| myproject | %                           | *FABE5482D5AADF36D028AC443D117BE1180B9725 |
++-----------+-----------------------------+-------------------------------------------+
+7 rows in set (0.00 sec)
+
+mysql> password('foo')
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password('foo')' at line 1
+mysql> select password('foo');
++-------------------------------------------+
+| password('foo')                           |
++-------------------------------------------+
+| *F3A2A51A9B0F2BE2468926B4132313728C250DBF |
++-------------------------------------------+
+1 row in set (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> flush privileges;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> 
+mysql> 
+mysql> CREATE DATABASE myproject;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> GRANT ALL ON myproject.* TO 'myproject'@'%';
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> drop database myproject;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> drop user myproject;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> select user, host, password from user;
++------+-----------------------------+----------+
+| user | host                        | password |
++------+-----------------------------+----------+
+| root | localhost                   |          |
+| root | victorias-macbook-pro.local |          |
+| root | 127.0.0.1                   |          |
+| root | ::1                         |          |
+|      | localhost                   |          |
+|      | victorias-macbook-pro.local |          |
++------+-----------------------------+----------+
+6 rows in set (0.00 sec)
+
