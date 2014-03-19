@@ -1,3 +1,11 @@
+CREATE TABLE RegionCodes
+(
+DestinationString varchar(150) PRIMARY KEY,
+RegionCode int
+);
+
+
+
 CREATE TABLE ratetesting
 (
 HoteliestID int,

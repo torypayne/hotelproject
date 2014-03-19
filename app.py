@@ -32,7 +32,7 @@ def search_results():
 	#headers = {'Content-Type': 'application/json'}
 	r = requests.get("http://api.ean.com/ean-services/rs/hotel/v3/list?", params=payload)
 	r = json.loads(r.text)
-	pprint(r)
+	# pprint(r)
 	try:
 		hotel_list = r["HotelListResponse"]["HotelList"]["HotelSummary"]
 		return render_template("search.html", city=city, 
