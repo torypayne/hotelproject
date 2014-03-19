@@ -26,6 +26,7 @@ def make_xml_request(destination, checkin, checkout):
 	r = json.loads(r.text)
 	return r
 
+#May want to look up some safety stuff since mySQL isn't accepting ? instead of %s
 def find_region_code(destination, checkin, checkout):
 	connect_to_db()
 	query = """SELECT RegionCode FROM RegionCodes WHERE DestinationString = %s"""
@@ -52,13 +53,4 @@ def find_region_code(destination, checkin, checkout):
 	#if none, send destination string to expedia api for a hotel id
 	#use hotel ID to look up region code
 	#write destinationstring and regioncode to DB for future reference
-	pass
 
-find_region_code("Milwaukee","4/7/2014","4/9/2014")
-find_region_code("New York","4/7/2014","4/9/2014")
-find_region_code("JFK","4/7/2014","4/9/2014")
-find_region_code("LGA","4/7/2014","4/9/2014")
-find_region_code("San Francisco","4/7/2014","4/9/2014")
-find_region_code("San Diego","4/7/2014","4/9/2014")
-find_region_code("Los Angeles","4/7/2014","4/9/2014")
-find_region_code("Chicago","4/7/2014","4/9/2014")

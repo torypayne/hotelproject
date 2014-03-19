@@ -65,7 +65,7 @@ def make_xml_request(hotel_id_list):
 	print hotel_id_list
 	xml_request = "<HotelListRequest><hotelIdList>"+hotel_id_list+"</hotelIdList><arrivalDate>"+checkin+"</arrivalDate><departureDate>"+checkout+"</departureDate></HotelListRequest>"
 	payload = {"cid": "55505", "minorRev": "99", 
-	 		"apiKey": "pnqbxpnwvest5ap5qrry4pk8", 
+	 		"apiKey": "cbrzfta369qwyrm9t5b8y8kf", 
 	 		"locale": "en_US", "currencyCode": "USD",
 	 		"xml": xml_request}
 	print xml_request
