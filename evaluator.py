@@ -14,16 +14,20 @@ def connect_to_db():
 	global CONN
 	CONN = MySQLdb.connect(host="localhost", user="root", passwd="", db="hotelchains")
 	DB = CONN.cursor()
-	print DB
+
 
 def make_xml_request(destination, checkin, checkout):
 	xml_request = "<HotelListRequest><destinationstring>"+destination+"</destinationstring><arrivalDate>"+checkin+"</arrivalDate><departureDate>"+checkout+"</departureDate></HotelListRequest>"
 	payload = {"cid": "55505", "minorRev": "99", 
-	 		"apiKey": "pnqbxpnwvest5ap5qrry4pk8", 
+	 		"apiKey": "rddk3k82jjqbk4wgfbkb6qg8",
 	 		"locale": "en_US", "currencyCode": "USD",
 	 		"xml": xml_request}
+ 
+	 		# "cid": "55505", "minorRev": "99", 
+	 		# "apiKey": "pnqbxpnwvest5ap5qrry4pk8", 
 	r = requests.get("http://api.ean.com/ean-services/rs/hotel/v3/list?", params=payload)
 	r = json.loads(r.text)
+	pprint(r)
 	return r
 
 #May want to look up some safety stuff since mySQL isn't accepting ? instead of %s
@@ -34,7 +38,7 @@ def find_region_code(destination, checkin, checkout):
 	row = DB.fetchone()
 	if row:
 		code = row[0]
-		print "Just added "+str(code)+" for "+destination
+		print "We've already got "+str(code)+" for "+destination
 		return code
 	else:
 		r = make_xml_request(destination,checkin,checkout)
@@ -54,3 +58,6 @@ def find_region_code(destination, checkin, checkout):
 	#use hotel ID to look up region code
 	#write destinationstring and regioncode to DB for future reference
 
+
+# find_region_code("NYC", "4/7/2014", "4/9/2014")
+find_region_code("Austin, TX", "4/7/2014", "4/9/2014")

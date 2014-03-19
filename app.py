@@ -25,14 +25,17 @@ def search_results():
 	checkin = request.args.get("checkin")
 	checkout = request.args.get("checkout")
 	xml_request = "<HotelListRequest><destinationstring>"+city+"</destinationstring><arrivalDate>"+checkin+"</arrivalDate><departureDate>"+checkout+"</departureDate></HotelListRequest>"
-	payload = {"cid": "55505", "minorRev": "99", 
+	payload = {"cid": "455248", "minorRev": "99", 
 	 		"apiKey": "pnqbxpnwvest5ap5qrry4pk8", 
 	 		"locale": "en_US", "currencyCode": "USD",
 	 		"xml": xml_request}
+	 			 		#my api key: "apiKey": "pnqbxpnwvest5ap5qrry4pk8",
+	 			 		#api key from  demo "cbrzfta369qwyrm9t5b8y8kf",
+	 			 		#resor api key: "asdxuk6szgvnfmtgavj82wxe"
 	#headers = {'Content-Type': 'application/json'}
 	r = requests.get("http://api.ean.com/ean-services/rs/hotel/v3/list?", params=payload)
 	r = json.loads(r.text)
-	# pprint(r)
+	pprint(r)
 	try:
 		hotel_list = r["HotelListResponse"]["HotelList"]["HotelSummary"]
 		return render_template("search.html", city=city, 
