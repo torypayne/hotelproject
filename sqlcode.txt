@@ -63,3 +63,40 @@ FIELDS TERMINATED BY '|'
 (EANHotelID, SequenceNumber, Name, Address1, Address2, City, StateProvince, PostalCode, Country, Latitude, Longitude, AirportCode, PropertyCategory, PropertyCurrency, StarRating, @Confidence, SupplierType, Location, @ChainCodeID, RegionID, HighRate, LowRate, CheckInTime, CheckOutTime)
 SET ChainCodeID = IF(@ChainCodeID='',0,@ChainCodeID);
 
+
+
+
+
+CREATE TABLE CuratedHotels (
+HotelID MEDIUMINT NOT NULL KEY, 
+EANHotelID INT, 
+Name VARCHAR(80), 
+City VARCHAR (50), 
+StateProvince VARCHAR (15), 
+Country VARCHAR (30), 
+Location VARCHAR (125), 
+ChainCodeID INT, 
+RegionID INT, 
+AvgRate FLOAT,
+RegAvg FLOAT,
+TripAdvisorRating FLOAT,
+PulledAvgPrice FLOAT,
+Website VARCHAR (250),
+LoyaltyProgram VARCHAR (30),
+LoyaltyCategory INT,
+StandardNightPoints INT,
+FifthNightFree BOOL,
+CashAndPointsPossible BOOL,
+CashOfCashAndPoints INT,
+PointsOfCashAndPoints INT,
+HighSeasonPossible BOOL,
+HighSeasonDates VARCHAR (500),
+HighSeasonPoints INT,
+PointSaverPossible BOOL,
+PointSaverDates VARCHAR (500),
+PointSaverPoints INT
+);
+
+
+
+

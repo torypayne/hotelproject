@@ -25,9 +25,9 @@ def make_xml_request(destination, checkin, checkout):
  
 	 		# "cid": "55505", "minorRev": "99", 
 	 		# "apiKey": "pnqbxpnwvest5ap5qrry4pk8", 
-	r = requests.get("http://api.ean.com/ean-services/rs/hotel/v3/list?", params=payload)
+	r = requests.get("http://api.eancdn.com/ean-services/rs/hotel/v3/list?", params=payload)
 	r = json.loads(r.text)
-	pprint(r)
+	# pprint(r)
 	return r
 
 #May want to look up some safety stuff since mySQL isn't accepting ? instead of %s

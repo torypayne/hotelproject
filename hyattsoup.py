@@ -38,16 +38,16 @@ for i in range(1,8):
 
 # Testing showed that "Park Hyatt Jeddah – Marina, Club and Spa" was the only item that needed 
 # to be added manually
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"] = {}
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["link"] = a["href"]
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["loyalty"] = "Hyatt"
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["category"] = i
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["points"] = point_list[i]
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["fifthfree"] = False
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["cashandpoints"] = False
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["cashofcandp"] = None
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["pointsofcandp"] = None
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["highseasonrate"] = point_list[i]
-Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["highseasondates"] = None
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"] = {}
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["link"] = a["href"]
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["loyalty"] = "Hyatt"
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["category"] = i
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["points"] = point_list[i]
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["fifthfree"] = False
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["cashandpoints"] = False
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["cashofcandp"] = None
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["pointsofcandp"] = None
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["highseasonrate"] = point_list[i]
+# Hotel_dictionary["Park Hyatt Jeddah - Marina, Club and Spa"]["highseasondates"] = None
 
 

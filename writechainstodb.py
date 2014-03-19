@@ -33,15 +33,30 @@ for i in data:
 	DB.execute(query, ("%"+i+"%",))
 	row = DB.fetchone()
 	if row == None:
-		print i
-		print test
-		failedmatches[i] = test
-		# print failedmatches
+		# print i
+		# print test
+		# failedmatches[i] = test
+		# # print failedmatches
 		fails += 1
 	else:
-		# print row
+		# for j in range(len(row)):
+		# 	print "This is row "+str(j)+" "+str(row[j])
+		# print test["link"]
+		addquery =  """CuratedHotels (HotelID, EANHotelID, Name, City, StateProvince, Country, Location,
+			ChainCodeID, RegionID, AvgRate, RegAvg, TripAdvisorRating, PulledAvgPrice, Website,
+			LoyaltyProgram, StandardNightPoints, FifthNightFree, CashAndPointsPossible,
+			CashOfCashAndPoints, PointsOfCashAndPoints, HighSeasonPossible, HighSeasonDates,
+			HighSeasonPoints, PointSaverPossible, PointSaverDates, PointSaverPoints) VALUES (
+			%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, 
+			%s, %s, %s, %s"""
+		DB.execute(query, (row[0], row[1], row[3], row[6], row[7], row[9], row[18], row[19], row[20], row[28],
+			row[29], row[31],row[32], test["link"], test["loyalty"], test["category"], test["points"],
+			test["fifthfree"], test["cashandpoints"], test["cashofcandp"], test["pointsofcandp"],
+			test["highseasonapplies"], test["highseasondates"], test["highseasonrate"], 
+			test["pointsaverapplies"], test["pointsaverdates"], test["pointsaverrate"]))
+		CONN.commit()
 		success += 1
-	if counter > 10:
+	if success > 1:
 		break
 	else:
 		continue
@@ -49,4 +64,10 @@ for i in data:
 # print fails
 # print success
 
-print failedmatches
+# print "About to write to failed matches"
+
+# f = open('failedmatches.json', 'w')
+
+# f.write(json.dumps(failedmatches))
+
+# print "I just wrote to failedmatches.json"
