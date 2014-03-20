@@ -22,8 +22,10 @@ data = json.load(json_data)
 counter = 0
 fails = 0
 success = 0
+partialsuccess = 0
 
 failedmatches = {}
+matchednamewithissues = {}
 
 
 for i in data:
@@ -34,40 +36,47 @@ for i in data:
 	row = DB.fetchone()
 	if row == None:
 		# print i
-		# print test
-		# failedmatches[i] = test
+		print i + " didn't work"
+		failedmatches[i] = test
 		# # print failedmatches
 		fails += 1
 	else:
-		# for j in range(len(row)):
-		# 	print "This is row "+str(j)+" "+str(row[j])
-		# print test["link"]
-		addquery =  """CuratedHotels (HotelID, EANHotelID, Name, City, StateProvince, Country, Location,
-			ChainCodeID, RegionID, AvgRate, RegAvg, TripAdvisorRating, PulledAvgPrice, Website,
-			LoyaltyProgram, StandardNightPoints, FifthNightFree, CashAndPointsPossible,
-			CashOfCashAndPoints, PointsOfCashAndPoints, HighSeasonPossible, HighSeasonDates,
-			HighSeasonPoints, PointSaverPossible, PointSaverDates, PointSaverPoints) VALUES (
-			%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, 
-			%s, %s, %s, %s"""
-		DB.execute(query, (row[0], row[1], row[3], row[6], row[7], row[9], row[18], row[19], row[20], row[28],
-			row[29], row[31],row[32], test["link"], test["loyalty"], test["category"], test["points"],
-			test["fifthfree"], test["cashandpoints"], test["cashofcandp"], test["pointsofcandp"],
-			test["highseasonapplies"], test["highseasondates"], test["highseasonrate"], 
-			test["pointsaverapplies"], test["pointsaverdates"], test["pointsaverrate"]))
-		CONN.commit()
-		success += 1
-	if success > 1:
-		break
-	else:
-		continue
+		try:
+			addquery =  """INSERT INTO CuratedHotels (HotelID, EANHotelID, Name, City, StateProvince, Country, Location,
+				ChainCodeID, RegionID, AvgRate, RegAvg, TripAdvisorRating, PulledAvgPrice, Website,
+				LoyaltyProgram, LoyaltyCategory, StandardNightPoints, FifthNightFree, CashAndPointsPossible,
+				CashOfCashAndPoints, PointsOfCashAndPoints, HighSeasonPossible, HighSeasonDates,
+				HighSeasonPoints, PointSaverPossible, PointSaverDates, PointSaverPoints) VALUES (
+				%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, 
+				%s, %s, %s, %s)"""
+			DB.execute(addquery, (row[0], row[1], row[3], row[6], row[7], row[9], row[18], row[19], row[20], row[28],
+				row[29], row[31],row[32], test["link"], test["loyalty"], test["category"], test["points"],
+				test["fifthfree"], test["cashandpoints"], test["cashofcandp"], test["pointsofcandp"],
+				test["highseasonapplies"], test["highseasondates"], test["highseasonrate"], 
+				test["pointsaverapplies"], test["pointsaverdates"], test["pointsaverrate"]))
+			print i + " just got added"
+			success += 1
+		except:
+			print i + " sort of worked"
+			matchednamewithissues[i] = test
+			partialsuccess += 1
 
-# print fails
-# print success
 
-# print "About to write to failed matches"
+CONN.commit()
+print "fails: "+str(fails)
+print "successes: "+str(success)
+print "partial successes "+str(partialsuccess)
 
-# f = open('failedmatches.json', 'w')
+print "About to write to failed matches"
 
-# f.write(json.dumps(failedmatches))
+f = open('failedmatches.json', 'w')
 
-# print "I just wrote to failedmatches.json"
+f.write(json.dumps(failedmatches))
+
+print "I just wrote to failedmatches.json"
+
+j = open('matchednameissues.json', 'w')
+
+f.write(json.dumps(matchednamewithissues))
+
+print "I just wrote to matchednameissues.json"
