@@ -53,7 +53,7 @@ for i in range(1,8):
 						for date in highdivs:
 							highseasondates.append(date.contents[0].encode('latin-1'))
 					Hotel_dictionary[hotel]["highseasondates"] = highseasondates
-					highseasondates = []
+					highseasondates = None
 				Hotel_dictionary[hotel]["highseasonrate"] = high_season_points_list[i]
 				Hotel_dictionary[hotel]["weekendrateapplies"] = weekendpossible
 				Hotel_dictionary[hotel]["weekendpointrate"] = weekeendpoint_list[i]

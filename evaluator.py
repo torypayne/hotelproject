@@ -30,6 +30,18 @@ def make_xml_request(destination, checkin, checkout):
 	# pprint(r)
 	return r
 
+def request_specific_hotels(hotel_id_list,checkin, checkout):
+	hotel_id_list = ",".join([str(i) for i in hotel_id_list])
+	xml_request = "<HotelListRequest><hotelIdList>"+hotel_id_list+"</hotelIdList><arrivalDate>"+checkin+"</arrivalDate><departureDate>"+checkout+"</departureDate></HotelListRequest>"
+	payload = {"cid": "55505", "minorRev": "99", 
+	 		"apiKey": "rddk3k82jjqbk4wgfbkb6qg8",
+	 		"locale": "en_US", "currencyCode": "USD",
+	 		"xml": xml_request}
+	r = requests.get("http://api.eancdn.com/ean-services/rs/hotel/v3/list?", params=payload)
+	r = json.loads(r.text)
+	# pprint(r)
+	return r	
+
 #May want to look up some safety stuff since mySQL isn't accepting ? instead of %s
 def find_region_code(destination, checkin, checkout):
 	connect_to_db()
@@ -68,26 +80,21 @@ def curated_hotel_list(region):
 	rows = DB.fetchall()
 	for row in rows:
 		eanhotelid = row[1]
-		name = row[2]
-		website = row[13]
-		program = row[14]
-		category = row[15]
-		points = row[16]
-		fifthfree = row[17]
-		candp = row[18]
-		cashofcandp = row[19]
-		pointsofcandp = row[20]
-		highseason = row[21]
-		highseasondates = row[22]
-		highseasonpoints = row[23]
-		pointsaverpossible = row[24]
-		pointsaverdates = row[25]
-		pointsaverpoints = row[26]
-
-		| HotelID 0| EANHotelID 1| Name                              2| City   3| StateProvince 4| Country 5| 
-		Location                            6| ChainCodeID 7| RegionID 8| AvgRate 9| RegAvg  10| TripAdvisorRating 11| 
-		PulledAvgPrice 12| Website     13| LoyaltyProgram 14| LoyaltyCategory 15| StandardNightPoints 16| FifthNightFree 17| 
-		CashAndPointsPossible 18| CashOfCashAndPoints 19| PointsOfCashAndPoints 20| HighSeasonPossible 21| HighSeasonDates 22| 
-		HighSeasonPoints 23| PointSaverPossible 24| PointSaverDates 25| PointSaverPoints 26|
+		hotel_lookup_detail[eanhotelid] = {}
+		hotel_lookup_detail[eanhotelid]["name"] = row[2]
+		hotel_lookup_detail[eanhotelid]["website"] = row[13]
+		hotel_lookup_detail[eanhotelid]["program"] = row[14]
+		hotel_lookup_detail[eanhotelid]["category"] = row[15]
+		hotel_lookup_detail[eanhotelid]["points"] = row[16]
+		hotel_lookup_detail[eanhotelid]["fifthfree"] = row[17]
+		hotel_lookup_detail[eanhotelid]["candp"] = row[18]
+		hotel_lookup_detail[eanhotelid]["cashofcandp"] = row[19]
+		hotel_lookup_detail[eanhotelid]["pointsofcandp"] = row[20]
+		hotel_lookup_detail[eanhotelid]["highseason"] = row[21]
+		hotel_lookup_detail[eanhotelid]["highseasondates"] = row[22]
+		hotel_lookup_detail[eanhotelid]["highseasonpoints"] = row[23]
+		hotel_lookup_detail[eanhotelid]["pointsaverpossible"] = row[24]
+		hotel_lookup_detail[eanhotelid]["pointsaverdates"] = row[25]
+		hotel_lookup_detail[eanhotelid]["pointsaverpoints"] = row[26]
 		hotel_lookup_list.append(eanhotelid)
-	pass
+	return (hotel_lookup_list, hotel_lookup_detail)

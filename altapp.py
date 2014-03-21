@@ -27,34 +27,21 @@ def search_results():
 	checkin = request.args.get("checkin")
 	checkout = request.args.get("checkout")
 	region = evaluator.find_region_code(city, checkin, checkout)
-	evaluator.curated_hotel_list(region)
-	# DB.execute(query, (region,))
-	# print city
-	# print checkin
-	# print checkout
-	# xml_request = "<HotelListRequest><destinationstring>"+city+"</destinationstring><arrivalDate>"+checkin+"</arrivalDate><departureDate>"+checkout+"</departureDate></HotelListRequest>"
-	# payload = {"cid": "455248", "minorRev": "99", 
-	#  		"apiKey": "pnqbxpnwvest5ap5qrry4pk8", 
-	#  		"locale": "en_US", "currencyCode": "USD",
-	#  		"xml": xml_request}
-	#  			 		#my api key: "apiKey": "pnqbxpnwvest5ap5qrry4pk8",
-	#  			 		#api key from  demo "cbrzfta369qwyrm9t5b8y8kf",
-	#  			 		#resor api key: "asdxuk6szgvnfmtgavj82wxe"
-	# #headers = {'Content-Type': 'application/json'}
-	# r = requests.get("http://api.eancdn.com/ean-services/rs/hotel/v3/list?", params=payload)
-	# r = json.loads(r.text)
-	# # pprint(r)
-	# try:
-	# 	hotel_list = r["HotelListResponse"]["HotelList"]["HotelSummary"]
-	# 	return render_template("search.html", city=city, 
-	# 										checkin=checkin, 
-	# 										checkout=checkout, 
-	# 										hotel_list=hotel_list)
-	# except:
-	# 	flash("Oh no! We couldn't find any hotels that matched your request! Double check your destination spelling and specificity, then try different dates.")
-	# 	return redirect(url_for("index"))
-	flash("You made it past to the end of your code!")
-	return redirect(url_for("index"))
+	hotel_tuple = evaluator.curated_hotel_list(region)
+	hotel_list = hotel_tuple[0]
+	hotel_dict = hotel_tuple[1]
+	r = evaluator.request_specific_hotels(hotel_list,checkin,checkout)
+	try:
+		hotel_list = r["HotelListResponse"]["HotelList"]["HotelSummary"]
+		return render_template("search.html", city=city, 
+											checkin=checkin, 
+											checkout=checkout, 
+											hotel_list=hotel_list)
+	except:
+		flash("Oh no! We couldn't find any hotels that matched your request! Double check your destination spelling and specificity, then try different dates.")
+		return redirect(url_for("index"))
+	# flash("You made it past to the end of your code!")
+	# return redirect(url_for("index"))
 
 if __name__ == "__main__":
 	app.run(debug = True)
