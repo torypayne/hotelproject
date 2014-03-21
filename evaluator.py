@@ -59,5 +59,35 @@ def find_region_code(destination, checkin, checkout):
 	#write destinationstring and regioncode to DB for future reference
 
 
-# find_region_code("NYC", "4/7/2014", "4/9/2014")
-find_region_code("Austin, TX", "4/7/2014", "4/9/2014")
+def curated_hotel_list(region):
+	hotel_lookup_list = []
+	hotel_lookup_detail = {}
+	connect_to_db()
+	query = """SELECT * FROM CuratedHotels WHERE RegionID = %s"""
+	DB.execute(query, (region,))
+	rows = DB.fetchall()
+	for row in rows:
+		eanhotelid = row[1]
+		name = row[2]
+		website = row[13]
+		program = row[14]
+		category = row[15]
+		points = row[16]
+		fifthfree = row[17]
+		candp = row[18]
+		cashofcandp = row[19]
+		pointsofcandp = row[20]
+		highseason = row[21]
+		highseasondates = row[22]
+		highseasonpoints = row[23]
+		pointsaverpossible = row[24]
+		pointsaverdates = row[25]
+		pointsaverpoints = row[26]
+
+		| HotelID 0| EANHotelID 1| Name                              2| City   3| StateProvince 4| Country 5| 
+		Location                            6| ChainCodeID 7| RegionID 8| AvgRate 9| RegAvg  10| TripAdvisorRating 11| 
+		PulledAvgPrice 12| Website     13| LoyaltyProgram 14| LoyaltyCategory 15| StandardNightPoints 16| FifthNightFree 17| 
+		CashAndPointsPossible 18| CashOfCashAndPoints 19| PointsOfCashAndPoints 20| HighSeasonPossible 21| HighSeasonDates 22| 
+		HighSeasonPoints 23| PointSaverPossible 24| PointSaverDates 25| PointSaverPoints 26|
+		hotel_lookup_list.append(eanhotelid)
+	pass

@@ -15,6 +15,7 @@ def connect_to_db():
 
 connect_to_db()
 
+# json_data=open('.json')
 json_data=open('hoteldictionary.json')
 
 data = json.load(json_data)
@@ -42,6 +43,17 @@ for i in data:
 		fails += 1
 	else:
 		try:
+			location = str(row[18])
+			location = location.replace("(","")
+			location = location.replace(")","")
+			try:
+				test["highseasondates"]
+			except:
+				test["highseasondates"] = None
+			highseason = str(test["highseasondates"])
+			highseason = highseason.replace("(","")
+			highseason = highseason.replace(")","")
+			highseason = highseason.replace(",", "&")
 			addquery =  """INSERT INTO CuratedHotels (HotelID, EANHotelID, Name, City, StateProvince, Country, Location,
 				ChainCodeID, RegionID, AvgRate, RegAvg, TripAdvisorRating, PulledAvgPrice, Website,
 				LoyaltyProgram, LoyaltyCategory, StandardNightPoints, FifthNightFree, CashAndPointsPossible,
@@ -49,10 +61,10 @@ for i in data:
 				HighSeasonPoints, PointSaverPossible, PointSaverDates, PointSaverPoints) VALUES (
 				%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, 
 				%s, %s, %s, %s)"""
-			DB.execute(addquery, (row[0], row[1], row[3], row[6], row[7], row[9], row[18], row[19], row[20], row[28],
+			DB.execute(addquery, (row[0], row[1], row[3], row[6], row[7], row[9], location, row[19], row[20], row[28],
 				row[29], row[31],row[32], test["link"], test["loyalty"], test["category"], test["points"],
 				test["fifthfree"], test["cashandpoints"], test["cashofcandp"], test["pointsofcandp"],
-				test["highseasonapplies"], test["highseasondates"], test["highseasonrate"], 
+				test["highseasonapplies"], highseason, test["highseasonrate"], 
 				test["pointsaverapplies"], test["pointsaverdates"], test["pointsaverrate"]))
 			print i + " just got added"
 			success += 1
@@ -60,6 +72,13 @@ for i in data:
 			print i + " sort of worked"
 			matchednamewithissues[i] = test
 			partialsuccess += 1
+			print DB._last_executed
+			# try:
+			# 	print "MySQL Error [%d]: %s" % (e.args[0], e.args[1])
+			# except IndexError:
+			# 	print "MySQL Error: %s" % str(i)
+	# if counter >= 20:
+	# 	break
 
 
 CONN.commit()
@@ -77,6 +96,6 @@ print "I just wrote to failedmatches.json"
 
 j = open('matchednameissues.json', 'w')
 
-f.write(json.dumps(matchednamewithissues))
+j.write(json.dumps(matchednamewithissues))
 
 print "I just wrote to matchednameissues.json"

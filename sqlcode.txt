@@ -93,7 +93,7 @@ HighSeasonPossible BOOL,
 HighSeasonDates VARCHAR (500),
 HighSeasonPoints INT,
 PointSaverPossible BOOL,
-PointSaverDates VARCHAR (500),
+PointSaverDates VARCHAR (1000),
 PointSaverPoints INT
 );
 
