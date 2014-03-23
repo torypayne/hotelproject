@@ -32,12 +32,12 @@ def search_results():
 	hotel_dict = hotel_tuple[1]
 	expedia_list = evaluator.request_specific_hotels(hotel_list,checkin,checkout)
 	# try:
-	print "made it to the try"
+	# print "made it to the try"
 	r = expedia_list["HotelListResponse"]["HotelList"]["HotelSummary"]
-	print "made it to test function"
+	# print "made it to test function"
 	r = evaluator.merge_data(r, hotel_dict)
-	print "made it out of test function"
-	print r
+	# print "made it out of test function"
+	# print r
 	return render_template("search.html", city=city, 
 										checkin=checkin, 
 										checkout=checkout, 
