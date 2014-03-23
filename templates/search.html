@@ -12,14 +12,19 @@
 	{% for hotel in hotel_list %}
 	<div class="hotel-box">
 	<img class="hotelimage" src="http://images.travelnow.com/{{hotel['thumbNailUrl']}}">
-	<a href="http://www.travelnow.com/templates/455248/hotels/{{hotel['hotelId']}}/overview?roomsCount=1&rooms[0].adultsCount=1&rooms[0].childrenCount=0&checkin={{checkin}}&checkout={{checkout}}&currency=USD&currencySymbol=%24&lang=en"><strong>{{hotel["name"]|replace("&apos;","'")|replace("&amp;","&")}}</strong></a>
+	<strong>{{hotel["name"]|replace("&apos;","'")|replace("&amp;","&")}}</strong>
 	<br>
 	TripAdvisor: <img src="{{hotel['tripAdvisorRatingUrl']}}">
 	<br>
-	Average Nightly Rate: ${{hotel["RoomRateDetailsList"]["RoomRateDetails"]["RateInfos"]["RateInfo"]["ChargeableRateInfo"]["@averageRate"]|int}}</br>
-	Trip Total After Taxes: ${{hotel["RoomRateDetailsList"]["RoomRateDetails"]["RateInfos"]["RateInfo"]["ChargeableRateInfo"]["@total"]|int}}
+	Average Nightly Rate: ${{hotel["avgbaserate"]|int}}</br>
+	Trip Total After Taxes: ${{hotel["totalcost"]|int}}
 	<br>
-	<a href="http://www.travelnow.com/templates/455248/hotels/{{hotel['hotelId']}}/overview?roomsCount=1&rooms[0].adultsCount=1&rooms[0].childrenCount=0&checkin={{checkin}}&checkout={{checkout}}&currency=USD&currencySymbol=%24&lang=en">Book with Travel Now</a>
+	Points Per Night: {{hotel["points"]}}<br>
+	Total Point Cost: {{hotel["points"]|int * hotel["nights"]|int}}<br>
+	Cents Per Point: {{((hotel["totalcost"]|int/(hotel["points"]|int * hotel["nights"]|int))*100)|round(1)}}
+	<br>
+	<a href="http://www.travelnow.com/templates/455248/hotels/{{hotel['hotelId']}}/overview?roomsCount=1&rooms[0].adultsCount=1&rooms[0].childrenCount=0&checkin={{checkin}}&checkout={{checkout}}&currency=USD&currencySymbol=%24&lang=en">Book with Travel Now</a><br>
+	<a href='http://{{hotel["website"]|replace("http://","")}}'>Book with {{hotel["program"]}}</a>
 	</div>
 	<br>
 	{% endfor %}

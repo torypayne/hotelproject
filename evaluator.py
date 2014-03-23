@@ -33,6 +33,7 @@ def make_xml_request(destination, checkin, checkout):
 def request_specific_hotels(hotel_id_list,checkin, checkout):
 	hotel_id_list = ",".join([str(i) for i in hotel_id_list])
 	xml_request = "<HotelListRequest><hotelIdList>"+hotel_id_list+"</hotelIdList><arrivalDate>"+checkin+"</arrivalDate><departureDate>"+checkout+"</departureDate></HotelListRequest>"
+	print xml_request
 	payload = {"cid": "55505", "minorRev": "99", 
 	 		"apiKey": "rddk3k82jjqbk4wgfbkb6qg8",
 	 		"locale": "en_US", "currencyCode": "USD",
@@ -93,8 +94,60 @@ def curated_hotel_list(region):
 		hotel_lookup_detail[eanhotelid]["highseason"] = row[21]
 		hotel_lookup_detail[eanhotelid]["highseasondates"] = row[22]
 		hotel_lookup_detail[eanhotelid]["highseasonpoints"] = row[23]
-		hotel_lookup_detail[eanhotelid]["pointsaverpossible"] = row[24]
+		hotel_lookup_detail[eanhotelid]["pointsaver"] = row[24]
 		hotel_lookup_detail[eanhotelid]["pointsaverdates"] = row[25]
 		hotel_lookup_detail[eanhotelid]["pointsaverpoints"] = row[26]
 		hotel_lookup_list.append(eanhotelid)
 	return (hotel_lookup_list, hotel_lookup_detail)
+
+def merge_data(expedia_list, curated_hotels):
+	final_list =[]
+	for i in range(len(expedia_list)):
+		hotelid = expedia_list[i]["hotelId"]
+		hotel_dict = {}
+		hotel_dict["hotelId"] = hotelid
+		hotel_dict["name"] = expedia_list[i]["name"]
+		hotel_dict["address"] = expedia_list[i]["address1"]
+		hotel_dict["city"] = expedia_list[i]["city"]
+		hotel_dict["countryCode"] = expedia_list[i]["countryCode"]
+		hotel_dict["tripAdvisorRating"] = expedia_list[i]["tripAdvisorRating"]
+		hotel_dict["tripAdvisorRatingUrl"] = expedia_list[i]["tripAdvisorRatingUrl"]
+		hotel_dict["tripAdvisorReviewCount"] = expedia_list[i]["tripAdvisorReviewCount"]
+		hotel_dict["locationDescription"] = expedia_list[i]["locationDescription"]
+		hotel_dict["latitude"] = expedia_list[i]["latitude"]
+		hotel_dict["longitude"] = expedia_list[i]["longitude"]
+		hotel_dict["thumbNailUrl"] = expedia_list[i]["thumbNailUrl"]
+		hotel_dict["avgbaserate"] = expedia_list[i]["RoomRateDetailsList"]["RoomRateDetails"]["RateInfos"]["RateInfo"]["ChargeableRateInfo"]["@averageRate"]
+		hotel_dict["totalcost"] = expedia_list[i]["RoomRateDetailsList"]["RoomRateDetails"]["RateInfos"]["RateInfo"]["ChargeableRateInfo"]["@total"]
+		hotel_dict["roomDescription"] = expedia_list[i]["RoomRateDetailsList"]["RoomRateDetails"]["roomDescription"]
+		hotel_dict["nights"] = expedia_list[i]["RoomRateDetailsList"]["RoomRateDetails"]["RateInfos"]["RateInfo"]["ChargeableRateInfo"]["NightlyRatesPerRoom"]["@size"]
+		hotel_dict["website"] = curated_hotels[hotelid]["website"]
+		hotel_dict["program"] = curated_hotels[hotelid]["program"]
+		hotel_dict["category"] = curated_hotels[hotelid]["category"]
+		hotel_dict["points"] = curated_hotels[hotelid]["points"]
+		hotel_dict["fifthfree"] = curated_hotels[hotelid]["fifthfree"]
+		hotel_dict["candp"] = curated_hotels[hotelid]["candp"]
+		hotel_dict["cashofcandp"] = curated_hotels[hotelid]["cashofcandp"]
+		hotel_dict["pointsofcandp"] = curated_hotels[hotelid]["pointsofcandp"]
+		hotel_dict["highseason"] = curated_hotels[hotelid]["highseason"]
+		hotel_dict["highseasondates"] = curated_hotels[hotelid]["highseasondates"]
+		hotel_dict["highseasonpoints"] = curated_hotels[hotelid]["highseasonpoints"]
+		hotel_dict["pointsaver"] = curated_hotels[hotelid]["pointsaver"]
+		hotel_dict["pointsaverdates"] = curated_hotels[hotelid]["pointsaverdates"]
+		hotel_dict["pointsaverpoints"] = curated_hotels[hotelid]["pointsaverpoints"]
+		final_list.append(hotel_dict)
+	print final_list
+	return final_list
+
+
+
+
+
+
+
+
+
+
+
+
+
