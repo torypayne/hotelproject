@@ -30,11 +30,22 @@ def check_curated(name):
 	query = """SELECT * FROM CuratedHotels WHERE Name LIKE %s"""
 	DB.execute(query, ("%"+name+"%",))
 	row = DB.fetchone()
-	if row == None:
+	if row != None:
 		print name +" is already in curated"
 		return True
 	else:
 		print name +" isn't in curated yet"
+		return False
+
+def check_on_id(HotelID):
+	query = """SELECT * FROM CuratedHotels WHERE HotelID = %s"""
+	DB.execute(query, (HotelID,))
+	row = DB.fetchone()
+	if row != None:
+		print name +" is already in curated"
+		return True
+	else:
+		print row
 		return False
 
 def pull_row_from_ean(name):
@@ -45,6 +56,14 @@ def pull_row_from_ean(name):
 
 def try_to_add_hotel(name, row):
 	test = data[name]
+	location = str(row[18])
+	location = location.replace("(","")
+	location = location.replace(")","")
+	try:
+		test["highseasondates"]
+	except:
+		test["highseasondates"] = None
+	highseason = "Dates not available"
 	try:
 		addquery =  """INSERT INTO CuratedHotels (HotelID, EANHotelID, Name, City, StateProvince, Country, Location,
 			ChainCodeID, RegionID, AvgRate, RegAvg, TripAdvisorRating, PulledAvgPrice, Website,
@@ -64,7 +83,15 @@ def try_to_add_hotel(name, row):
 	except:
 		print "You need to manually add "+name
 		print DB._last_executed
+		print """INSERT INTO CuratedHotels (HotelID, EANHotelID, Name, City, StateProvince, Country, Location,
+			ChainCodeID, RegionID, AvgRate, RegAvg, TripAdvisorRating, PulledAvgPrice, Website,
+			LoyaltyProgram, LoyaltyCategory, StandardNightPoints, FifthNightFree, CashAndPointsPossible,
+			CashOfCashAndPoints, PointsOfCashAndPoints, HighSeasonPossible, HighSeasonDates,
+			HighSeasonPoints, PointSaverPossible, PointSaverDates, PointSaverPoints) VALUES ("""
+		print row[0], row[1], row[3], row[6], row[7], row[9], location, row[19], row[20], row[28], row[29], row[31],row[32], test["link"], test["loyalty"], test["category"], test["points"], test["fifthfree"], test["cashandpoints"], test["cashofcandp"], test["pointsofcandp"], test["highseasonapplies"], highseason, test["highseasonrate"], test["pointsaverapplies"], test["pointsaverdates"], test["pointsaverrate"]
 		return raw_input("next to go to the next, check to check again")
+
+
 
 def main():
     connect_to_db()
@@ -74,7 +101,7 @@ def main():
         command = raw_input("Partial match review> ")
         for name in data:
         	check = check_curated(name)
-        	if check = True:
+        	if check == True:
         		continue
         	else:
         		row = pull_row_from_ean(name)
