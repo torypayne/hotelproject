@@ -102,6 +102,8 @@ def curated_hotel_list(region):
 
 def merge_data(expedia_list, curated_hotels):
 	final_list =[]
+	if type(expedia_list) == dict:
+		expedia_list = [expedia_list]
 	for i in range(len(expedia_list)):
 		hotelid = expedia_list[i]["hotelId"]
 		hotel_dict = {}
