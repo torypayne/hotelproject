@@ -20,8 +20,12 @@
 	Trip Total After Taxes: ${{hotel["totalcost"]|int}}
 	<br>
 	Points Per Night: {{hotel["points"]}}<br>
-	Total Point Cost: {{hotel["points"]|int * hotel["nights"]|int}}<br>
-	Cents Per Point: {{((hotel["totalcost"]|int/(hotel["points"]|int * hotel["nights"]|int))*100)|round(1)}}
+	Total Point Cost: {{hotel["totalpoints"]}} 
+	<br>{% if hotel["fifthfree"] %}
+    You get every fifth points night free with {{hotel["program"]}}!
+    <br>
+    {% endif %}
+	Cents Per Point: {{hotel["cpp"]|round(1)}}
 	<br>
 	<a href="http://www.travelnow.com/templates/455248/hotels/{{hotel['hotelId']}}/overview?roomsCount=1&rooms[0].adultsCount=1&rooms[0].childrenCount=0&checkin={{checkin}}&checkout={{checkout}}&currency=USD&currencySymbol=%24&lang=en">Book with Travel Now</a><br>
 	<a href='http://{{hotel["website"]|replace("http://","")}}'>Book with {{hotel["program"]}}</a>

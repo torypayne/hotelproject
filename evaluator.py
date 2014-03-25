@@ -100,6 +100,18 @@ def curated_hotel_list(region):
 		hotel_lookup_list.append(eanhotelid)
 	return (hotel_lookup_list, hotel_lookup_detail)
 
+
+def calculate_totalpoints(hotel_dict):
+	total_points = int(hotel_dict["nights"]) * int(hotel_dict["points"])
+	if hotel_dict["fifthfree"] == True:
+		free_nights = int(hotel_dict["nights"])/5
+		total_points = total_points - (free_nights * int(hotel_dict["points"]))
+	return total_points
+
+def calculate_cpp(hotel_dict):
+	cpp = (float(hotel_dict["totalcost"])/int(hotel_dict["totalpoints"]))*100
+	return cpp
+
 def merge_data(expedia_list, curated_hotels):
 	final_list =[]
 	if type(expedia_list) == dict:
@@ -128,6 +140,8 @@ def merge_data(expedia_list, curated_hotels):
 		hotel_dict["category"] = curated_hotels[hotelid]["category"]
 		hotel_dict["points"] = curated_hotels[hotelid]["points"]
 		hotel_dict["fifthfree"] = curated_hotels[hotelid]["fifthfree"]
+		if int(hotel_dict["nights"]) < 5:
+			hotel_dict["fifthfree"] = False
 		hotel_dict["candp"] = curated_hotels[hotelid]["candp"]
 		hotel_dict["cashofcandp"] = curated_hotels[hotelid]["cashofcandp"]
 		hotel_dict["pointsofcandp"] = curated_hotels[hotelid]["pointsofcandp"]
@@ -137,15 +151,15 @@ def merge_data(expedia_list, curated_hotels):
 		hotel_dict["pointsaver"] = curated_hotels[hotelid]["pointsaver"]
 		hotel_dict["pointsaverdates"] = curated_hotels[hotelid]["pointsaverdates"]
 		hotel_dict["pointsaverpoints"] = curated_hotels[hotelid]["pointsaverpoints"]
+		hotel_dict["totalpoints"] = calculate_totalpoints(hotel_dict)
+		hotel_dict["cpp"] = calculate_cpp(hotel_dict)
+		# print final_list
 		final_list.append(hotel_dict)
-	print final_list
 	return final_list
 
 
-
-
-
-
+def store_cpp(final_list, RegionID, checkin, checkout):
+	pass
 
 
 
