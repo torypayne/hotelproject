@@ -2,6 +2,12 @@ body {
     background-color: #eee;
 }
 
+img.headimage{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
 form.search {
     width: 450px;
     margin: 50px auto;
@@ -12,6 +18,20 @@ form.search input.form-control {
 }
 
 form.search input.btn {
+    margin-top: 15px;
+}
+
+form.signin {
+    width: 450px;
+    margin: 50px auto;
+    padding: 5px
+}
+
+form.signin input.form-control {
+    margin-bottom: 5px;
+}
+
+form.signin input.btn {
     margin-top: 15px;
 }
 
@@ -72,14 +92,4 @@ img.hotelimage{
     padding-top: 8px
 }
 
-img.headimage{
- min-width: 100%px;
-       
- /* Set up proportionate scaling */
- width: auto;
- height: auto;
-       
- /* Set up positioning */
- top: 0;
- left: 0;
-}
+

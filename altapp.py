@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, request, url_for, flash
+from flask import Flask, render_template, redirect, request, url_for, flash, session
 import requests
 import json
 from pprint import pprint
@@ -50,6 +50,40 @@ def search_results():
 def cpp():
 	chain_cpp = evaluator.find_average_cpp()
 	return render_template("cpp.html", chain_cpp=chain_cpp)
+
+
+@app.route("/register")
+def register():
+	return render_template("register.html")
+    # if session.get("username"):
+    #     return redirect(url_for("user_wall",username=session['username']))
+    # else:
+    #     return render_template("register.html")
+
+@app.route("/register", methods=["POST"])     
+def register_user():
+    model.connect_to_db()
+    username = request.form.get("username")
+    password = request.form.get("password")
+    password_verify = request.form.get("password_verify")
+    response = model.create_account(username, password, password_verify)
+    if response == 1:
+        flash("That name is already in use. Please try again.")
+        return redirect(url_for("register"))
+    elif response == 2:
+        flash("Passwords do not match. Please try again.")
+        return redirect(url_for("register"))
+    else:
+        flash("Success! Please log in to view your wall.")
+        return redirect(url_for("index"))
+
+
+@app.route("/login")
+def register():
+	return render_template("login.html")
+
+
+
 
 
 if __name__ == "__main__":
