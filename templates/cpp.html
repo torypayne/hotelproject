@@ -1,0 +1,16 @@
+<html>
+	<head>
+		{% extends 'master.html' %}
+	</head>
+	<body>
+	{% block body %}
+	<h3>Average Cents Per Point Across Hotel Chains</h3>
+	<br>
+	<h5>Hilton: {{chain_cpp["Hilton"]|round(2)}}<br><br>
+	Hyatt: {{chain_cpp["Hyatt"]|round(2)}}<br><br>
+	Marriott: {{chain_cpp["Marriott"]|round(2)}}<br><br>
+	Starwood: {{chain_cpp["Starwood"]|round(2)}}<br></h5>
+	{% endblock %}
+	<script src="/static/js/jquery-2.1.0.js"></script>
+	</body>
+</html>

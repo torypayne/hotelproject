@@ -46,5 +46,11 @@ def search_results():
 	# flash("You made it past to the end of your code!")
 	# return redirect(url_for("index"))
 
+@app.route("/cpp")
+def cpp():
+	chain_cpp = evaluator.find_average_cpp()
+	return render_template("cpp.html", chain_cpp=chain_cpp)
+
+
 if __name__ == "__main__":
 	app.run(debug = True)

@@ -176,7 +176,15 @@ def store_cpp(final_list, RegionID, checkin, checkout):
 	CONN.commit()
 	pass
 
-
+def find_average_cpp():
+	chain_cpp = {}
+	connect_to_db()
+	query = """SELECT Chain, AVG(CentsPerPoint) FROM CPP_values GROUP BY CHAIN"""
+	DB.execute(query)
+	rows = DB.fetchall()
+	for row in rows:
+		chain_cpp[row[0]] = row[1]
+	return chain_cpp
 
 
 
