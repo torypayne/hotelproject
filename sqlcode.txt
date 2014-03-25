@@ -97,6 +97,14 @@ PointSaverDates VARCHAR (1000),
 PointSaverPoints INT
 );
 
-
+CREATE TABLE CPP_Values (
+EntryID BIGINT NOT NULL AUTO_INCREMENT KEY,
+EANHotelID INT,
+Chain VARCHAR (50),
+RegionID INT,
+CheckIn VARCHAR (20),
+CheckOut VARCHAR (20),
+CentsPerPoint FLOAT
+);
 
 

@@ -31,20 +31,18 @@ def search_results():
 	hotel_list = hotel_tuple[0]
 	hotel_dict = hotel_tuple[1]
 	expedia_list = evaluator.request_specific_hotels(hotel_list,checkin,checkout)
-	# try:
-	# print "made it to the try"
-	r = expedia_list["HotelListResponse"]["HotelList"]["HotelSummary"]
-	# print "made it to test function"
-	r = evaluator.merge_data(r, hotel_dict)
-	# print "made it out of test function"
-	# print r
-	return render_template("search.html", city=city, 
-										checkin=checkin, 
-										checkout=checkout, 
-										hotel_list=r)
-	# except:
-	# 	flash("Oh no! We couldn't find any hotels that matched your request! Double check your destination spelling and specificity, then try different dates.")
-	# 	return redirect(url_for("index"))
+	try:
+		r = expedia_list["HotelListResponse"]["HotelList"]["HotelSummary"]
+		r = evaluator.merge_data(r, hotel_dict)
+		if evaluator.cpp_already_stored(region, checkin, checkout) == False:
+			evaluator.store_cpp(r, region, checkin, checkout)
+		return render_template("search.html", city=city, 
+											checkin=checkin, 
+											checkout=checkout, 
+											hotel_list=r)
+	except:
+		flash("Oh no! We couldn't find any hotels that matched your request! Double check your destination spelling and specificity, then try different dates.")
+		return redirect(url_for("index"))
 	# flash("You made it past to the end of your code!")
 	# return redirect(url_for("index"))
 

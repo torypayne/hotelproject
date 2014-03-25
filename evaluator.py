@@ -158,7 +158,22 @@ def merge_data(expedia_list, curated_hotels):
 	return final_list
 
 
+def cpp_already_stored(RegionID, checkin, checkout):
+	query = """SELECT * FROM CPP_values WHERE (RegionID = %s AND CheckIn = %s AND CheckOut = %s)"""
+	DB.execute(query, (RegionID, checkin, checkout))
+	row = DB.fetchone()
+	if row:
+		return True
+	else:
+		return False
+
+
 def store_cpp(final_list, RegionID, checkin, checkout):
+	for hotel in final_list:
+		query =  """INSERT INTO CPP_values (EANHotelID, Chain, RegionID, 
+			CheckIn, CheckOut, CentsPerPoint) VALUES (%s, %s, %s, %s, %s, %s)"""
+		DB.execute(query, (hotel["hotelId"], hotel["program"], RegionID, checkin, checkout, hotel["cpp"]))
+	CONN.commit()
 	pass
 
 
