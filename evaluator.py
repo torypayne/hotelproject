@@ -19,12 +19,12 @@ def connect_to_db():
 def make_xml_request(destination, checkin, checkout):
 	xml_request = "<HotelListRequest><destinationstring>"+destination+"</destinationstring><arrivalDate>"+checkin+"</arrivalDate><departureDate>"+checkout+"</departureDate></HotelListRequest>"
 	payload = {"cid": "55505", "minorRev": "99", 
-	 		"apiKey": "rddk3k82jjqbk4wgfbkb6qg8",
-	 		"locale": "en_US", "currencyCode": "USD",
-	 		"xml": xml_request}
+			"apiKey": "rddk3k82jjqbk4wgfbkb6qg8",
+			"locale": "en_US", "currencyCode": "USD",
+			"xml": xml_request}
  
-	 		# "cid": "55505", "minorRev": "99", 
-	 		# "apiKey": "pnqbxpnwvest5ap5qrry4pk8", 
+			# "cid": "55505", "minorRev": "99", 
+			# "apiKey": "pnqbxpnwvest5ap5qrry4pk8", 
 	r = requests.get("http://api.eancdn.com/ean-services/rs/hotel/v3/list?", params=payload)
 	r = json.loads(r.text)
 	# pprint(r)
@@ -35,9 +35,9 @@ def request_specific_hotels(hotel_id_list,checkin, checkout):
 	xml_request = "<HotelListRequest><hotelIdList>"+hotel_id_list+"</hotelIdList><arrivalDate>"+checkin+"</arrivalDate><departureDate>"+checkout+"</departureDate></HotelListRequest>"
 	print xml_request
 	payload = {"cid": "55505", "minorRev": "99", 
-	 		"apiKey": "rddk3k82jjqbk4wgfbkb6qg8",
-	 		"locale": "en_US", "currencyCode": "USD",
-	 		"xml": xml_request}
+			"apiKey": "rddk3k82jjqbk4wgfbkb6qg8",
+			"locale": "en_US", "currencyCode": "USD",
+			"xml": xml_request}
 	r = requests.get("http://api.eancdn.com/ean-services/rs/hotel/v3/list?", params=payload)
 	r = json.loads(r.text)
 	# pprint(r)
@@ -112,6 +112,11 @@ def calculate_cpp(hotel_dict):
 	cpp = (float(hotel_dict["totalcost"])/int(hotel_dict["totalpoints"]))*100
 	return cpp
 
+def fullsize_image(image_url):
+	image_url = image_url.replace("t.jpg","b.jpg")
+	return image_url
+
+
 def merge_data(expedia_list, curated_hotels):
 	final_list =[]
 	if type(expedia_list) == dict:
@@ -130,7 +135,7 @@ def merge_data(expedia_list, curated_hotels):
 		hotel_dict["locationDescription"] = expedia_list[i]["locationDescription"]
 		hotel_dict["latitude"] = expedia_list[i]["latitude"]
 		hotel_dict["longitude"] = expedia_list[i]["longitude"]
-		hotel_dict["thumbNailUrl"] = expedia_list[i]["thumbNailUrl"]
+		hotel_dict["thumbNailUrl"] = fullsize_image(expedia_list[i]["thumbNailUrl"])
 		hotel_dict["avgbaserate"] = expedia_list[i]["RoomRateDetailsList"]["RoomRateDetails"]["RateInfos"]["RateInfo"]["ChargeableRateInfo"]["@averageRate"]
 		hotel_dict["totalcost"] = expedia_list[i]["RoomRateDetailsList"]["RoomRateDetails"]["RateInfos"]["RateInfo"]["ChargeableRateInfo"]["@total"]
 		hotel_dict["roomDescription"] = expedia_list[i]["RoomRateDetailsList"]["RoomRateDetails"]["roomDescription"]
@@ -186,7 +191,35 @@ def find_average_cpp():
 		chain_cpp[row[0]] = row[1]
 	return chain_cpp
 
+def create_account(email, password, password_verify):
+	connect_to_db()
+	email = email
+	query = """SELECT email FROM users where email = %s"""
+	DB.execute(query, (email,))
+	check_username = DB.fetchone()
+	if check_username != None:
+		return 1
+	elif hash(password) != hash(password_verify):
+		return 2
+	else:
+		query = """INSERT INTO users (Email, PasswordHash, System) VALUES (%s, %s, %s)"""
+		DB.execute(query, (email, hash(password), "Resor"))
+		print DB._last_executed
+		CONN.commit()
+		return "New user"
 
-
-
+def authenticate(email, password):
+	connect_to_db()
+	password_input = hash(password)
+	query = """SELECT Email, PasswordHash FROM users WHERE email = %s"""
+	DB.execute(query, (email,))
+	row = DB.fetchone()
+	print row
+	DB_password = row[1]
+	print DB_password
+	print password_input
+	if int(password_input) == int(DB_password):
+		return True
+	else:
+		return None
 

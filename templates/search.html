@@ -12,7 +12,8 @@
 
 	{% for hotel in hotel_list %}
 	<div class="hotel-box">
-	<img class="hotelimage" src="http://images.travelnow.com/{{hotel['thumbNailUrl']}}">
+	<div class="hotel-image-box">
+	<img class="hotelimage" src="http://images.travelnow.com/{{hotel['thumbNailUrl']}}"></div>
 	<strong>{{hotel["name"]|replace("&apos;","'")|replace("&amp;","&")}}</strong>
 	<br>
 	TripAdvisor: <img src="{{hotel['tripAdvisorRatingUrl']}}">

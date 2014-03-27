@@ -107,4 +107,21 @@ CheckOut VARCHAR (20),
 CentsPerPoint FLOAT
 );
 
+CREATE TABLE Users (
+UserID BIGINT NOT NULL AUTO_INCREMENT KEY,
+Email VARCHAR(150),
+PasswordHash VARCHAR(150),
+System VARCHAR (40),
+AWUsername VARCHAR (50),
+AWPassword VARCHAR (50),
+HiltonBalance INT,
+HiltonStatus VARCHAR (50),
+HyattBalance INT,
+HyattStatus VARCHAR (50),
+MarriottBalance INT,
+MarriottStatus VARCHAR (50),
+StarwoodBalance INT,
+StarwoodStatus VARCHAR (50)
+)
 
+INSERT INTO USERS (Email, PasswordHash, System)

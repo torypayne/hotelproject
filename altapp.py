@@ -62,28 +62,44 @@ def register():
 
 @app.route("/register", methods=["POST"])     
 def register_user():
-    model.connect_to_db()
-    username = request.form.get("username")
+    email = request.form.get("email")
     password = request.form.get("password")
     password_verify = request.form.get("password_verify")
-    response = model.create_account(username, password, password_verify)
+    response = evaluator.create_account(email, password, password_verify)
     if response == 1:
-        flash("That name is already in use. Please try again.")
+        flash("That email address is already in use. Please try again.")
         return redirect(url_for("register"))
     elif response == 2:
         flash("Passwords do not match. Please try again.")
         return redirect(url_for("register"))
     else:
-        flash("Success! Please log in to view your wall.")
-        return redirect(url_for("index"))
+        flash("Success! Please log in to customize your account information.")
+        return redirect(url_for("login"))
 
 
 @app.route("/login")
-def register():
+def login():
 	return render_template("login.html")
 
 
+@app.route("/login", methods=["POST"])
+def process_login():
+    email = request.form.get("email")
+    password = request.form.get("password")
+    print evaluator.authenticate(email, password)
+    if evaluator.authenticate(email, password) == True:
+        flash("You're logged in!")
+        session['email'] = email
+        return redirect(url_for("index"))
+    else:
+        flash("Username or password incorrect")
+    	return redirect(url_for("login"))
 
+
+@app.route("/mypoints")
+def show_points():
+	evaluator.find_points(session['email'])
+	return render_template("mypoints.html")
 
 
 if __name__ == "__main__":
